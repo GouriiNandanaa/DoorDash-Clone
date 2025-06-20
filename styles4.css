@@ -98,6 +98,7 @@
     text-align: center;
 
     max-width: 560px;
+    width: 90%;
 }
 
 
@@ -110,6 +111,10 @@
   /* letter-spacing: 0.01px; */
 line-height: 28px;
 margin-top: 25px;
+    color: rgb(243, 243, 243);
+
+
+
 
 
 }
@@ -122,6 +127,8 @@ margin-top: 25px;
   margin-top: 10px;
   margin-bottom: 0;
   letter-spacing: -0.01px;
+    color: rgb(243, 243, 243);
+
 }
 
 .forth p {
@@ -131,6 +138,8 @@ margin-top: 25px;
   margin-bottom: 15px;
   margin-top: 10px;
   margin-bottom: 0;
+    color: rgb(243, 243, 243);
+
 }
 
 .forth button {
@@ -150,6 +159,15 @@ margin-top: 25px;
 }
 
 .below-black-image .desc{
+  /* align-self: center; */
+  width: 100%;
+  align-self: center;
+  
+}
+
+.below-black-image .desc h3{
+  /* align-self: center; */
+  width: 90%;
   align-self: center;
   
 }

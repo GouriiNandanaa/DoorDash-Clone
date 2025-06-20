@@ -89,6 +89,12 @@
 .second-content h2 {
   font-size: 1.8em;
 }
+body > section:nth-child(5) > div:nth-child(1){
+  margin-top: 20px;
+}
 
+.second-section .second-div .second-content{
+  /* min-width: 30%; */
+}
 
 

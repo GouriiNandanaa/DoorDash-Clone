@@ -147,13 +147,27 @@
 }
 
 .second-section{ 
-    margin-top: 56px;
-    row-gap: 33px;
+    margin-top: 40px;
+    row-gap: 0px;
+    max-width: 656px;
     /* font-size: 32px; */
 }
 
 .second-section .second-div h2{
     font-size: 33px;
+}
+    .second-section .second-div
+{
+    width: 438px;
+}
+
+body > section.second-section > div:nth-child(3) > div.second-content.sixsix > a{
+    /* display: block; */
+    /* margin-top: -30px; */
+    /* margin-bottom: 110px; */
+}
+body > section.second-section > div:nth-child(3) > div.second-content.sixsix > h2{
+    line-height: 40px;
 }
 
 }

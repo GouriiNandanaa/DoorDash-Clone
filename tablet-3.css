@@ -1,6 +1,17 @@
+:root {
+  --primary: #f84424;
+  --site-red: #eb1700;
+  --border-grey : #f1f1f1;
+  --light-grey: #f7f7f7;
+  --light-black : #282828;
+  --cream-color : #fef1ee;
+}
+
 @media screen and (min-width:768px) {
     .third-section{
         /* padding: 20px; */
+        /* margin-top: 20px; */
+        padding-top: 0px;
     }
 
     .third-section{
@@ -15,6 +26,7 @@
         justify-content: space-between;
 
         align-content: space-between;
+        column-gap: 60px;
     }
 
     .third-section .feature:nth-child(odd) {
@@ -23,28 +35,76 @@
 
     .third-section .feature .img{
         height: 500px;
-        width: 45%;
+        /* width: 45%; */
     }
 
 
     .third-section .feature .desc{
         max-width: 400px;
+        /* min-width: 360px; */
+        width: 49%;
         max-height: 290px;
         align-self: center;
+        justify-self: start;
+
+    }
+    .third-section .feature .desc{
+      display: flex;
+      flex-direction: column;
 
     }
 
     .third-section .feature .desc h3{
+      
         font-size: 40px;
+        line-height: 40px;
+        display: inline-block;
+        /* max-width: 390px; */
+        margin-bottom: 0;
+        margin-top: 20px;
+        max-width: 360px;
 
     }
     .third-section .feature .desc h4{
         font-size: 20px;
+        margin-top: 18px;
+        /* line-height: 0.1px; */
+        margin-bottom: 0;
         
     }
     .third-section .feature .desc p{
         font-size: 16px;
+        margin-top: 8px;
+        margin-bottom: 0;
+        letter-spacing: 0.1px;
+        line-height: 24px;
+
     }
+
+    .third-section .feature .desc button{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 16px;
+      margin-top: 28px;
+    }
+
+    .third-section .feature-2{
+      background-color: var(--cream-color);
+      padding: 80px 20px 20px 20px;
+      width: 100%;
+      margin-top: -60px;
+      margin-left: -20px;
+      margin-right: 0px;
+
+    }
+
+
+    .forth
+    {
+      width: 100%;
+      height: 600px;
+    }
+
 
 
 
