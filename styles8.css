@@ -1,6 +1,7 @@
 footer {
 
   width: 100%;
+  overflow-x: hidden;
 
   background-color: #272727;
   padding-top: 32px;
