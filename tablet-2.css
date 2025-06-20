@@ -170,10 +170,46 @@ body > section.second-section > div:nth-child(3) > div.second-content.sixsix > h
     line-height: 40px;
 }
 
+
+
+    .forth .shop h3{
+        font-size: 40px;
+        letter-spacing: -0.01px;
+        line-height: 40px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .forth .shop h4{
+        font-size: 20px;
+        letter-spacing: -0.01px;
+        line-height: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .forth .shop p{
+        font-family: 'Bold';
+        font-size: 16px;
+        letter-spacing: -0.01px;
+        line-height: 22px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .forth .shop button{
+        margin-top: 30px;
+        padding-right: 12px;
+        padding-left: 12px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size :16px;
+    }
+
+    .below-black-image{
+        padding: 60px 20px 20px 20px !important;
+    }
 }
 
 
-
+/* 326 296 */
 
 
 
