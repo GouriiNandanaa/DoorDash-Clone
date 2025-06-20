@@ -1,0 +1,91 @@
+@media screen and (min-width:768px) {
+    .third-section{
+        /* padding: 20px; */
+    }
+
+    .third-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .third-section .feature {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        align-content: space-between;
+    }
+
+    .third-section .feature:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    .third-section .feature .img{
+        height: 500px;
+        width: 45%;
+    }
+
+
+    .third-section .feature .desc{
+        max-width: 400px;
+        max-height: 290px;
+        align-self: center;
+
+    }
+
+    .third-section .feature .desc h3{
+        font-size: 40px;
+
+    }
+    .third-section .feature .desc h4{
+        font-size: 20px;
+        
+    }
+    .third-section .feature .desc p{
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+/* 
+
+  .third-section .feature {
+    /* background-color: yellow; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    height: 70vh;
+    gap: 30px;
+    justify-content: s;
+  }
+
+  .third-section .feature .img {
+    width: 40%;
+    height: 100%;
+    /* or a fixed height like 300px if parent has no height
+    overflow: hidden;
+    left: -40%;
+  }
+
+  .third-section .feature .img img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: block;
+    left: -40%;
+  }
+
+  .third-section .feature .desc {
+    width: 50%;
+  }
+
+  .third-section .feature:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+*/

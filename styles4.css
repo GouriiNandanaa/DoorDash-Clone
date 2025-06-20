@@ -1,0 +1,162 @@
+/* .forth {
+  margin-top: 50px;
+  width: 100%;
+  height: 635px;
+  position: relative;
+  background: url(assets/images/hand-background.avif) no-repeat center center/cover;
+  overflow: hidden;
+}
+
+.forth::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+
+.forth .shop {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.forth h3 {
+  font-family: 'Bold';
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 0;
+
+}
+
+.forth h4 {
+  font-family: 'Bold';
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.forth p {
+  font-family: 'Regular';
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+.forth button {
+  font-family: 'Regular';
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 15px;
+} */
+
+
+.forth{
+
+    color: rgb(243, 243, 243);
+
+    /* max-width: 768px; */
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(assets/images/hand-background.avif);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+
+    width: 100%;
+    height: 350px;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+
+.forth .shop{
+
+    display: flex;
+    flex-direction: column;
+
+    
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    max-width: 560px;
+}
+
+
+.forth h3 {
+  font-family: 'Bold';
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 0;
+  /* letter-spacing: 0.01px; */
+line-height: 28px;
+margin-top: 25px;
+
+
+}
+
+.forth h4 {
+  font-family: 'Bold';
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  letter-spacing: -0.01px;
+}
+
+.forth p {
+  font-family: 'Regular';
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.forth button {
+  font-family: 'Regular';
+  font-weight: 600;
+  font-size: 15px;
+  /* margin-bottom: 15px; */
+  justify-self: end;
+  margin: 0px;
+  margin-top: 23px;
+  padding: 6px 10px;
+}
+
+.below-black-image{
+  margin: 0px;
+  padding: 20px;
+}
+
+.below-black-image .desc{
+  align-self: center;
+  
+}
+
+.third-section .below-black-image{
+  padding-bottom: 0px;
+} 
+
+
+

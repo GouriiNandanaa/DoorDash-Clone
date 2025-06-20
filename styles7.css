@@ -1,0 +1,114 @@
+:root {
+  --primary: #f84424;
+  --site-red: #eb1700;
+  --border-grey : #f1f1f1;
+  --light-grey: #f7f7f7;
+  --light-black : #282828;
+  --cream-color : #fef1ee;
+}
+
+
+.top{
+    padding: 48px 0;
+    color: var(--light-black);
+    font-family: 'Bold';
+    font-weight: 600;
+}
+.top h1{
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Bold';
+  margin-bottom: 19px;
+  margin-top: 0px;
+  
+}
+.top .top-heading{
+  display: flex;
+  /* justify-content: space-between; */
+  font-size: 16px;
+  padding-bottom: 0;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.top .top-heading li{
+flex: 1;
+display: flex;
+  text-align: center;
+  list-style: none;
+  align-items: center;          
+  justify-content: center;       
+  list-style: none;
+  height: 100%;
+  font-size: 16px;
+  border-bottom: 1px solid #c5c5c5;
+  cursor: pointer;
+  
+}
+.top .top-heading li:hover{
+   background-color: #eeeeee;
+   /* text-decoration: underline; */
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-bottom: #000000 3px solid; 
+}
+
+.top .top-heading li {
+  margin-left: 5px;
+  text-decoration: none;
+  color: rgb(80, 80, 80);
+  font-weight: bold;
+  border-bottom: #aaaaaa 2px solid;
+  transition: background-color 0.15s,
+  color 0.15s,
+  border-bottom 0.15s;
+}
+
+.top .top-heading li:active{
+   background-color: #eeeeee;
+   /* text-decoration: underline; */
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-bottom: #000000 3px solid; 
+}
+
+
+.top .top-contents {
+  font-family: 'Regular';
+  
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: pink; */
+  justify-content: space-between;
+  /* column-gap: 24px; */
+  row-gap: 1px;
+  font-weight: 600;
+  
+}
+
+.top .top-contents li {
+  width: 48%; 
+  margin-top: 12px;
+  line-height: 1.6em;
+}
+
+.top .see-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 12px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+
+}
+
+.top .see-more svg{
+  background-color: var(--light-grey);
+  border-radius: 36px;
+  padding: 8px;
+}
+
+.top .see-more h2{
+  font-size: 20px;
+}

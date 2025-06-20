@@ -1,0 +1,140 @@
+footer {
+  background-color: #272727;
+  padding-top: 32px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #eeeeee;
+  font-weight: 500;
+  padding-bottom: 32px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+footer a{
+  color: #eeeeee;
+  font-weight: 500;
+}
+footer h5{
+  font-size: 16px;
+  /* margin: 8px; */
+  color: wheat;
+}
+
+footer .four-col {
+
+    
+
+    padding-top: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    row-gap: 12px;
+    column-gap: 12px;
+    text-align: left;
+    justify-content: flex-start;
+    padding-left: 0;  
+    margin: 0;
+    margin-bottom: 32px; 
+
+
+}
+
+footer .four-col li{
+    font-family: 'Bold';
+  width: 25%; 
+  /* min-width: 150px; */
+  list-style: none;
+  color: wheat;
+}
+
+footer .four-col li:hover{
+    text-decoration: underline;
+}
+
+
+
+
+footer .svgs{
+  margin-top: 64px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+
+footer .remaining{
+
+    margin-top: 32px;
+
+  display: grid;
+  grid-template-columns:1fr;
+  grid-auto-columns: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  
+
+}
+footer .remaining ul{
+    margin-bottom: 32px;
+    
+}
+
+footer .remaining li{
+    height: 28px;
+    
+}
+
+footer .last-svg{
+  /* padding-top: 30px; */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+
+.svgs button{
+  margin-top: 15px;
+  background-color: #535353;
+  fill: #c5c5c5;
+  border-radius: 8px;
+  transition: background-color 0.15s;
+}
+
+.svgs button:hover{
+  
+  background-color: #929191;
+  fill: #c5c5c5;
+  cursor: pointer;
+}
+
+
+.pop-cat h5{
+    margin-bottom: 8px;
+}
+
+footer .bottom-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;       
+  column-gap: 16px;       
+  padding: 8px 12px;
+  font-size: 18px;
+  line-height: 1;
+  /* background-color: #333;    */
+  height: 36px;           
+  /* white-space: wrap;     */
+  /* overflow-x: auto;    */
+}
+
+footer .bottom-line h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: #eeeeee;
+}
+
+footer .bottom-line svg {
+  flex-shrink: 0;
+  margin-right: 8px;
+}

@@ -1,0 +1,123 @@
+@media screen and (min-width:1200px) {
+    .second-section{
+        display: flex;
+        flex-direction: row;
+        width: 100v !important;
+        margin-left:  -50px !important;
+        /* margin-right:  12px; */
+        /* margin: 0 auto; */
+        
+        /* justify-content: space-sta; */
+
+
+        /* padding-left: -10px; */
+        column-gap:25%;
+        margin-bottom: 96px;
+        
+    }
+    body > section.second-section > .second-content h2{
+        /* 
+        font-family: 'Boldcsajd';
+        line-height: 10px; */
+
+    }
+
+    body > section.second-section > div:nth-child(1) > div.second-content.twotwo > h2{
+        /* font-size: 34px;
+        font-family: 'Bold';*/
+        line-height: -2px; 
+        margin-top: 0px;
+        /* font-size: 34px;
+        line-height/: 2px;  */
+
+    }
+
+    body > section.second-section > div:nth-child(1) {
+        padding-left: 1px;
+    }
+
+    body > section.second-section > div:nth-child(1) > div.second-content.twotwo{
+        position: relative;
+        top: 0.5px;
+        left: -7px;
+    }
+    body > section.second-section > div:nth-child(2) > div.second-content.fourfour{
+        position: relative;
+        top: 0.5px;
+        left: -7px;
+    }
+
+    body > section.second-section > div:nth-child(3) > div.second-content.sixsix{
+        position: relative;
+        top: 0.5px;
+        left: -7px;
+    }
+
+    .second-section .second-div{
+        margin-top:50px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: 400px ;
+
+        row-gap: 0px;
+    }
+
+    body > section.second-section > div:nth-child(1) > div.oneone{
+        height: 154px !important;
+        
+    }
+
+    body > section.second-section > div:nth-child(2) > div.threethree{
+        height: 154px !important;
+    }
+
+    body > section.second-section > div:nth-child(3) > div.fivefive{
+        height: 154px !important;
+    }
+
+
+    body > section.second-section > div:nth-child(1){
+        /* padding-left: 0px; */
+    }
+    .second-section .second-div .second-contents{
+        max-width: 250px;
+        margin-top: -5px;
+    }
+
+    
+    /* .second-section .second-div .oneone, .threethree, .fivefive{
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+
+    } */
+
+    .second-section .second-div img {
+    width: 154px !important;
+    height: 154px !important;
+  }
+    .second-section .second-div{
+        padding-left: 0;
+    }
+    .second-section a{
+        font-size: 18px;
+    }
+}
+
+/* 
+    --cream-color: #fef1ee;
+    --primary: #f84424;
+    --site-red: #eb1700;
+    --border-grey: #f1f1f1;
+    --light-grey: #f7f7f7;
+    --light-black: #282828;
+    font-family: 'Regular';
+    text-align: center;
+    color: var(--light-black);
+    align-self: start;
+    width: 124px;
+    height: 124px;
+*/
