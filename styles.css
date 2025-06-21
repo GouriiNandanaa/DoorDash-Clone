@@ -152,6 +152,7 @@ line-height:29px;
   max-width: 300px;
 
   margin-top: 18px;
+  box-sizing: border-box;
   
 }
 
