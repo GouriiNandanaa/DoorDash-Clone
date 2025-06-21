@@ -194,9 +194,9 @@ line-height:29px;
 
     margin-top: 20px;
     padding-top: 19px;
-    padding-right: px;
+    margin-right: 20px;
     padding-bottom: 20px;
-    padding-left: 0px;
+    margin-left: 20px;
 
     justify-self: center;
     display: flex;
@@ -216,13 +216,13 @@ line-height:29px;
 .ad-section .ad-first-line{
     display: flex;
     column-gap: 8px;
-      align-self: center;
+      align-self: flex-start;
       justify-content: start;
-    padding-left: 250px ;/* 
+    padding-left: 25px ;/* 
     padding-right: 90px ; */
     /* position: relative;
   left: 200px; */
-  max-width: 800px;
+  width: 800px;
 
     
 }
