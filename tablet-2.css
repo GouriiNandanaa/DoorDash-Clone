@@ -17,7 +17,7 @@
         height: 650px;
     }
     .first-section .first-center .logo{
-        transform: translateY(-155.5px);
+        transform: translateY(-155px);
     }
     
 
@@ -127,7 +127,7 @@
 
 
     .top-scrolling-sticky{
-        height: 28px;
+        /* height: 28px; */
     }
 
     .ad-section{

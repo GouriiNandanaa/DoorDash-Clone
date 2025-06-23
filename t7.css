@@ -1,0 +1,65 @@
+@media screen and (min-width:768px) {
+    .with-bg-heading h1{
+        font-size: 32px;
+        max-width: 500px;
+        padding: 0;
+        line-height: 40px;
+
+
+    }
+    .with-bg-heading{
+        padding: 60px 20px 40px 20px;
+        box-sizing: border-box;
+    }
+
+    .with-bg .feature .img{
+        width: auto;
+    }
+
+    .with-bg .feature:nth-child(1){
+        height: 504px;
+    }
+
+    .with-bg{
+        padding: 20px;
+        background: linear-gradient(to bottom, transparent 465px, #fef1ee 465px);
+        /* height: 1008px; */
+    }
+
+    .with-bg .feature .desc{
+        width: auto;
+        max-width: 400px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .with-bg .feature .desc h3{
+        width: 90%;
+    }
+
+    .with-bg .feature .desc p{
+        margin-top: 20px;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.1px;
+        height: 66px;
+
+        
+    }
+    .with-bg .feature .desc button{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+    .with-bg .feature.grow-your-business .desc{
+        width: auto;
+        max-width: 400px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+    .with-bg .feature.grow-your-business .img{
+        width: auto;
+    }
+    .with-bg .feature.grow-your-business{
+        padding-top: 15px;
+    }
+}

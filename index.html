@@ -16,8 +16,14 @@
     <link rel="stylesheet" href="styles7.css">
     <link rel="stylesheet" href="styles8.css">
     <link rel="stylesheet" href="tablet-2.css">
+    <link rel="stylesheet" href="tablet-6.css">
     <link rel="stylesheet" href="tablet-3.css">
+    <!-- <link rel="stylesheet" href="tablet6.css"> -->
     <link rel="stylesheet" href="768.css">
+    <link rel="stylesheet" href="t7.css">
+    <link rel="stylesheet" href="laptop.css">
+
+
     
 </head>
 <body>
@@ -42,7 +48,7 @@
                 <path d="M95.64,13.38A25.24,25.24,0,0,0,73.27,0H2.43A2.44,2.44,0,0,0,.72,4.16L16.15,19.68a7.26,7.26,0,0,0,5.15,2.14H71.24a6.44,6.44,0,1,1,.13,12.88H36.94a2.44,2.44,0,0,0-1.72,4.16L50.66,54.39a7.25,7.25,0,0,0,5.15,2.14H71.38c20.26,0,35.58-21.66,24.26-43.16">
                 </path>
                 </svg>
-                <svg aria-hidden="true" width="112" height="13" viewBox="0 0 361.1 42" fill="white">
+                <svg aria-hidden="true" width="112" height="13" viewBox="0 0 361.1 42" fill="white" class="second-logo">
                 <path d="M8.62,8.66V33.38h6.32A12.21,12.21,0,0,0,27,21,12,12,0,0,0,14.94,8.66ZM14.94.91C26.72.91,35.63,9.81,35.63,21S26.72,41.14,14.94,41.14H1a1,1,0,0,1-1-1V1.95a1,1,0,0,1,1-1Z">
                 </path>
                 <path d="M66,34.24A13.22,13.22,0,1,0,52.82,21,13.24,13.24,0,0,0,66,34.24M66,0C78.4,0,87.88,9.53,87.88,21S78.4,42,66,42,44.2,32.52,44.2,21,53.68,0,66,0">
@@ -267,9 +273,9 @@
         </div>
       </div>
       
-      
+                     
       <div  class="supply">
-        <div class="img">
+        <div class="img">       
           <img src="assets/images/alcohol_mobile.avif" alt="beauty_mobile">
         </div>
         <div class="contents">
@@ -281,7 +287,7 @@
       </div>
 
 
-      <div class="supply">
+      <div class="supply last">
         <div class="img">
           <img src="assets/images/pet_supplies_mobile.avif" alt="beauty_mobile">
         </div>
@@ -517,7 +523,7 @@
   window.addEventListener("scroll", function () {
     const sticky = document.querySelector(".top-scrolling-sticky");
 
-    if (window.scrollY > 100) { // You can adjust the scroll threshold
+    if (window.scrollY > 100) { 
       sticky.style.display = "block";
     } else {
       sticky.style.display = "none";

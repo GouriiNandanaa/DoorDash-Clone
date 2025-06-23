@@ -1,0 +1,313 @@
+:root {
+  --primary: #f84424;
+  --site-red: #eb1700;
+  --border-grey : #f1f1f1;
+  --light-grey: #f7f7f7;
+  --light-black : #282828;
+  --cream-color : #fef1ee;
+}
+
+@media screen and (min-width:768px) {
+    /* .sixth-section{
+        margin-top: -35px;
+        padding-top: 0px;
+    
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+
+    }
+
+    .sixth-section .sixth-heading{
+        height: 80px;
+        padding: 60px 20px 40px ;
+        
+        display: flex;
+        justify-content: center;
+    }
+    .sixth-section .sixth-heading h1{
+        font-size: 32px;
+        letter-spacing: -0.01px;
+        line-height: 40px;
+        height: 100%;
+        
+        max-width: 500px;
+        margin: 0px;
+    }
+
+    .sixth-section{
+        margin: 0;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+
+        /* padding-left: 20px;
+        padding-right: 20px; */
+        /* overflow-x: hidden;
+    }
+    .sixth-section .scroll-view{
+        margin: 0;
+        padding: 0px; */
+        /* display: flex; */
+        /* max-width: 1184px; */
+        /* padding: 0px;
+        overflow: unset;
+
+        box-sizing: border-box;
+
+        margin-top: 73.5px;
+        margin-bottom: 24px;
+        
+        width: 100%; */
+        /* margin: 0; */
+        /* flex-wrap: wrap; */
+        /* padding: 20px; */
+
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px; */
+        /* align-items: flex-start; */
+        /* row-gap: 40px; */
+
+
+
+    
+
+    /* .sixth-section .scroll-view .supply{
+        margin: 0;
+        padding: 0px; */
+
+
+        /* padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        padding-top: 0px; */
+        /* box-sizing: border-box; */
+        /* margin: 0px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+
+        width: 100%;
+        height: 100%; */
+
+        /* padding: 20px; */
+        /* max-width: 50%;
+        min-width: 50%; */
+        /* display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-width: 90%;
+    } */ 
+
+    /* .sixth-section .scroll-view .supply {
+    padding: 0; 
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.sixth-section .scroll-view .supply .img {
+    padding: 20px; 
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+ */
+
+    /* .sixth-section .scroll-view .supply .img{
+        margin: 0;
+        padding: 0;
+        max-width: 552px;
+
+        width: 100%; */
+        /* height: 100%; */
+        /* height: auto;
+        aspect-ratio: 1 / 1;
+        
+        
+    }
+
+    .sixth-section .scroll-view .supply img{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        text-align: center;
+        /* display: block; */
+    /* }
+
+    .sixth-section .scroll-view .supply .contents h1{
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        font-family: 'Bold';
+        letter-spacing: -0.01px;
+        line-height: 40px;
+        margin: 0;
+        margin-top: 20px;
+        max-width: 90%;
+        width: 90%;
+        text-align: center;
+
+    }
+    .sixth-section .scroll-view .supply .contents p{
+        font-size: 16px;
+        letter-spacing: -0.01px;
+        line-height: 22px;
+        margin-top: 20px;
+                    text-align: center;
+    }
+    .sixth-section .scroll-view .supply .contents button{
+        margin-top: 30px;
+        font-size: 16px;
+        letter-spacing: -0.01px;
+    }
+     */ 
+
+    .sixth-section {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        margin-top: -35px ;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sixth-section > * {
+        margin: 0px;
+        padding: 0px;
+        border: 1px solid;
+    }
+
+    .sixth-section .scroll-view {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+
+        overflow: unset;
+    }
+    .sixth-section .supply {
+        margin: 0 !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0 !important;
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    body > section.sixth-section > div.scroll-view > div:nth-child(2){
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .sixth-section .scroll-view .supply .img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }      
+    .sixth-section .scroll-view .supply img {
+        width: 100%;
+        height: 100%;
+    }
+    body > section.sixth-section > div.scroll-view > div:nth-child(1),
+    body > section.sixth-section > div.scroll-view > div:nth-child(3){
+        padding-right: 20px;
+        padding-top: 20px;
+
+    }
+
+    body > section.sixth-section > div.scroll-view > div:nth-child(2),
+    body > section.sixth-section > div.scroll-view > div:nth-child(4){
+        padding-top: 20px;
+    }
+
+    body > section.sixth-section > div.scroll-view > div:nth-child(3),
+    body > section.sixth-section > div.scroll-view > div:nth-child(4){
+        padding-bottom: 20px;
+    }
+    .sixth-section .scroll-view .supply .contents h1{
+        margin: 0;
+        padding: 0;
+        font-size: 40px;
+        font-family: 'Bold';
+        letter-spacing: -0.01px;
+        line-height: 40px;
+        margin: 0;
+        margin-top: 20px;
+        max-width: 90%;
+        width: 90%;
+        text-align: center;
+
+    }
+    .sixth-section .scroll-view .supply .contents p{
+        font-size: 16px;
+        letter-spacing: -0.01px;
+        line-height: 22px;
+        margin-top: 20px;
+                    text-align: center;
+    }
+    .sixth-section .scroll-view .supply .contents button{
+        margin-top: 30px;
+        font-size: 16px;
+        letter-spacing: -0.01px;
+    }
+
+    .sixth-section .sixth-heading{
+        height: 80px;
+        padding: 60px 20px 40px ;
+        
+        display: flex;
+        justify-content: center;
+    }
+    .sixth-section .sixth-heading h1{
+        font-size: 32px;
+        letter-spacing: -0.01px;
+        line-height: 40px;
+        height: 100%;
+        
+        max-width: 500px;
+        margin: 0px;
+    }
+
+    .sixth-section .scroll-view .supply .contents h1{
+        margin: 0;
+        padding: 0;
+        font-size: 140px;
+        font-family: 'Bold';
+        letter-spacing: -0.01px;
+        line-height: 40px;
+        margin: 0;
+        margin-top: 20px;
+        max-width: 90%;
+        width: 90%;
+        text-align: center;
+
+    }
+    .sixth-section .scroll-view .supply .contents p{
+        font-size: 16px;
+        letter-spacing: -0.01px;
+        line-height: 22px;
+        margin-top: 20px;
+                    text-align: center;
+    }
+    .sixth-section .scroll-view .supply .contents button{
+        margin-top: 30px;
+        font-size: 16px;
+        letter-spacing: -0.01px;
+    }
+
+
+
+
+}
