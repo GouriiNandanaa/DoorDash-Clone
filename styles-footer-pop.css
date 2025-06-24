@@ -1,0 +1,53 @@
+@media screen and (min-width: 768px) {
+
+    body > footer > div.pop-cat{
+        margin: 0px 0px;
+        width: 100%;
+
+        justify-content: flex-start;
+        display: block;
+    }
+    
+  footer .pop-cat .four-col {
+
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  footer .pop-cat .four-col .category-group {
+    height: auto;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  footer .pop-cat .four-col li {
+    align-self: flex-start;
+    justify-self: flex-start;
+  }
+
+    footer .pop-cat h5{
+        text-align: left;
+        
+    }
+
+ footer .last-svg{
+    width: 100%;
+    /* background-color: #ff0000; */
+    display: flex;
+    flex-direction: row-reverse !important;
+    height: 36px;
+    
+  }
+
+  footer .last-svg .lang{
+    padding: 4px 5px 12px 4px;
+    height: 24px;
+    width: 174px;
+    margin-left: 4.5px;
+    margin-right: 11.5px;
+  }
+}
