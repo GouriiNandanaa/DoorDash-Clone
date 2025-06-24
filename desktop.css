@@ -1,124 +1,126 @@
 @media screen and (min-width:1184px) {
+
     
     .second-section{
         display: flex;
         flex-direction: row;
-        width: 100v !important;
-        margin-left:  -50px !important;
-        /* margin-right:  12px; */
-        /* margin: 0 auto; */
+
+        margin: 0 0;
+        padding: 0;
+        justify-content: space-between;
+        /* padding: 12px; */
+        margin-top: 0px !important;
+
+
         
-        /* justify-content: space-sta; */
+        width: 1080px;
+        min-width: 1080px;
+        height: 606px;
 
-
-        /* padding-left: -10px; */
-        column-gap:25%;
-        margin-bottom: 96px;
+        padding: 12px;
+        padding-bottom: 18px;
         
-    }
-    body > section.second-section > .second-content h2{
-        /* 
-        font-family: 'Boldcsajd';
-        line-height: 10px; */
-
-    }
-
-    body > section.second-section > div:nth-child(1) > div.second-content.twotwo > h2{
-        /* font-size: 34px;
-        font-family: 'Bold';*/
-        line-height: -2px; 
-        margin-top: 0px;
-        /* font-size: 34px;
-        line-height/: 2px;  */
-
-    }
-
-    body > section.second-section > div:nth-child(1) {
-        padding-left: 1px;
-    }
-
-    body > section.second-section > div:nth-child(1) > div.second-content.twotwo{
-        position: relative;
-        top: 0.5px;
-        left: -7px;
-    }
-    body > section.second-section > div:nth-child(2) > div.second-content.fourfour{
-        position: relative;
-        top: 0.5px;
-        left: -7px;
-    }
-
-    body > section.second-section > div:nth-child(3) > div.second-content.sixsix{
-        position: relative;
-        top: 0.5px;
-        left: -7px;
     }
 
     .second-section .second-div{
-        margin-top:50px;
+        width: 328px;
+        max-width: 328px;
+        height: 388px;
+
+        flex-direction: column;
+        text-align: center;
+
+        margin:0;
+        margin-top: px;
+    }
+    .second-section .second-div .twotwo, .second-section .second-div .fourfour, .second-section .second-div .sixsix{
+        max-height: 234px;
+        width: 250px;
+    }
+
+    .second-section .second-div .sixsix{
+        padding-top: 0;
+    }
+
+    .second-section .second-div .second-content h2{
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.01px;
+
+        margin: 0;
+        
+    }
+
+    .second-section .second-div .second-content p{
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.01px;
+
+        margin-bottom: 10px;
+        margin-top: 8px;
+    }
+    .second-section .second-div .second-content a{
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.01px;
+
+        margin-bottom: 0;
+        /* marg/in-top: 124px; */
+        margin-top: 12px;
+    }
+
+    .second-section .second-div .oneone,.second-section .second-div .threethree,.second-section .second-div .fivefive{
+        margin: 0;
+        padding: 0;
+
+        margin-right: 149px;
 
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        height: 400px ;
+        justify-content: space-between;
 
-        row-gap: 0px;
-    }
-
-    body > section.second-section > div:nth-child(1) > div.oneone{
-        height: 154px !important;
-        
-    }
-
-    body > section.second-section > div:nth-child(2) > div.threethree{
-        height: 154px !important;
-    }
-
-    body > section.second-section > div:nth-child(3) > div.fivefive{
-        height: 154px !important;
-    }
-
-
-    body > section.second-section > div:nth-child(1){
-        /* padding-left: 0px; */
-    }
-    .second-section .second-div .second-contents{
-        max-width: 250px;
-        margin-top: -5px;
-    }
+        width: 154px;
+        margin-left: 55px;
 
     
-    /* .second-section .second-div .oneone, .threethree, .fivefive{
-        width: 200px;
-        height: 200px;
-        background-color: aqua;
+    }
 
+    .second-section .second-div .oneone img,.second-section .second-div .threethree img,.second-section .second-div .fivefive img{
+        width: 100%;
+        height: 100%;
+    }
+
+   
+    body > section:nth-child(5){
+        margin-top: 0px;
+    }
+
+    /* body > section.second-section > div:nth-child(3) > div.second-content.sixsix > a{
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.01px;
+
+        margin-bottom: 0;
+        margin-top: 124px;
     } */
 
-    .second-section .second-div img {
-    width: 154px !important;
-    height: 154px !important;
-  }
-    .second-section .second-div{
-        padding-left: 0;
+
+
+
+
+
+    .third-section .feature{
+        margin-left: auto;
+margin-right: auto;
+/* top and bottom remain as-is */
+
+        /* justify-content: center; */
     }
-    .second-section a{
-        font-size: 18px;
+    /* .third-section .feature-2{
+        margin-left: auto;
+        margin-right: auto;
+    } */
+
+    body > section:nth-child(5) > div.feature.feature-2{
+        justify-content: center;
     }
 }
-
-/* 
-    --cream-color: #fef1ee;
-    --primary: #f84424;
-    --site-red: #eb1700;
-    --border-grey: #f1f1f1;
-    --light-grey: #f7f7f7;
-    --light-black: #282828;
-    font-family: 'Regular';
-    text-align: center;
-    color: var(--light-black);
-    align-self: start;
-    width: 124px;
-    height: 124px;
-*/

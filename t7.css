@@ -22,7 +22,8 @@
 
     .with-bg{
         padding: 20px;
-        background: linear-gradient(to bottom, transparent 465px, #fef1ee 465px);
+        margin-top: 0px;
+        background: linear-gradient(to bottom, transparent 485px, #fef1ee 485px);
         /* height: 1008px; */
     }
 
@@ -60,6 +61,13 @@
         width: auto;
     }
     .with-bg .feature.grow-your-business{
-        padding-top: 15px;
+        padding-top: 80px;
+        margin-top: -54px;
+    }
+    .with-bg .feature.grow-your-business{
+        height: 504px;
+    }
+    body > section.third-section.with-bg > div:nth-child(1){
+        padding-bottom: 20px;
     }
 }

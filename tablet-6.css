@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    margin-top: -35px;
+    margin-top: 90px;
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,6 +23,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* height: auto; */
+    /* max-height: 1810px; */
 }
 
 .sixth-section .sixth-heading {
@@ -42,21 +45,33 @@
 }
 
 .sixth-section .scroll-view {
+    overflow: unset;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0;
+    grid-auto-rows:1fr;
+    row-gap: 40px;
+    column-gap: 40px;
     width: 100%;
     max-width: 1184px;
+    height: auto;
+    max-height: 1630px;
+    align-items: stretch;
 }
 
 .sixth-section .supply {
 
+
     /* margin: 0 !important; */
-        margin-left: 0px !important;
-        margin-right: 0px !important;
+        /* margin-left: 0px !important;
+        margin-right: 0px !important; */
         /* padding: 0 !important; */
         
-    padding: 20px;
+    padding: 0px;
+
+    margin: 0;
+    /* padding-left:20px;
+    padding-right:20px; */
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,6 +81,7 @@
 .sixth-section .supply .img {
     width: 100%;
     padding-top: 100%;
+    
     position: relative;
     overflow: hidden;
 }
@@ -77,33 +93,49 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    max-width: 100%;
     display: block;
+    z-index: 999;
 }
 
 .sixth-section .supply .contents {
     width: 100%;
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .sixth-section .scroll-view .supply .contents h1 {
-    font-size: 24px !important;
+    /* background-color: #282828; */
+    font-size: 40px;
     font-family: 'Bold' !important;
     letter-spacing: -0.01px !important;
-    line-height: 32px !important;
-    margin-bottom: 20px !important;
+    line-height: 40px !important;
+    margin-top: 20px;
+    /* margin-bottom: 20px !important; */
 }
 
 .sixth-section .scroll-view .supply .contents p {
     font-size: 16px !important;
     line-height: 22px !important;
     letter-spacing: -0.01px !important;
-    margin-bottom: 20px !important;
+    margin-top: 20px;
+
+    /* margin-bottom: 20px !important; */
 }
 
 .sixth-section .scroll-view .supply .contents button {
     font-size: 16px !important;
     letter-spacing: -0.01px !important;
+    margin-top: 30px;
+
+}
+
+.sixth-section .left{
+    margin-left: 20px;
+}
+
+.sixth-section .right{
+    margin-right: 20px;
 }
 
 
