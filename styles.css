@@ -191,7 +191,7 @@ line-height:29px;
 
 }
 
-.{
+.ad-section{
 
     margin-top: 20px;
     /* padding-top: 19px;
@@ -217,7 +217,7 @@ line-height:29px;
     justify-content: center;
 }
 
-. .ad-first-line{
+.ad-first-line{
     display: flex;
     column-gap: 8px;
       align-self: flex-start;
