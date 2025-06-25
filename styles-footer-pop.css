@@ -110,6 +110,7 @@
     font-size: 16px;
     line-height: 22px;
     padding: 5px 12px;
+    font-family: 'Bold';
 }
 
 .banner-ad .ad-contents{
@@ -133,9 +134,10 @@
   line-height: 20px;
 
   text-align: left;
-  letter-spacing: -0.01px;
+  letter-spacing: 0.1px;
   
   font-family: 'Regular';
+   font-weight: 100;
   color: grey;
 }
 
@@ -146,6 +148,7 @@
   font-size: 14px;
   color: grey;
   font-family: 'Regular';
+  font-weight: 100;
 
 }
 

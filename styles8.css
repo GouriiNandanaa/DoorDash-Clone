@@ -33,9 +33,12 @@ footer h5{
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 footer .pop-cat h5{
   margin-bottom: 14px;
-  
-
-
+}
+body > footer > div.remaining > div:nth-child(1) > h5{
+  margin-bottom: 16px;
+}
+body > footer > div.remaining > div:nth-child(1) > ul{
+  margin-bottom: 20px;
 }
 footer .pop-cat {
 
@@ -125,7 +128,7 @@ footer .remaining{
 
 }
 footer .remaining ul{
-    margin-bottom: 32px;
+    margin-bottom: 20px;
     
 }
 
@@ -161,6 +164,7 @@ footer .last-svg .lang .world{
 
 footer .last-svg .logo-svg{
   width: 96px;
+  height: 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -195,7 +199,8 @@ footer .bottom-line {
   font-size: 18px;
   line-height: 1;
   /* background-color: #333;    */
-  height: 36px;           
+  height: 36px;      
+  margin-top: 12px;     
   /* white-space: wrap;     */
   /* overflow-x: auto;    */
 }

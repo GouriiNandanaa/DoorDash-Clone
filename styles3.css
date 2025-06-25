@@ -24,7 +24,7 @@
   flex-direction: column;
   flex: 1fr;
 
-  height: 382px;
+  height: auto;
   
 
 
@@ -110,6 +110,13 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+body > section:nth-child(5) > div.feature.feature-2 > div.desc > h3{
+  margin-top: 24px;
+}
+body > section.third-section.with-bg > div:nth-child(1) > div.desc > h3{
+  margin-top: 24px;
+}
+
 
 
 /* 
@@ -164,6 +171,14 @@
     
 }
 .with-bg .feature{
+  height: 374px;
+}
+
+body > section.third-section.with-bg > div.feature.grow-your-business > div.desc > h3{
+  margin-top: 24px;
+}
+
+body > section.third-section.with-bg > div.feature.grow-your-business{
   height: 354px;
 }
 

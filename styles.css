@@ -65,7 +65,9 @@ button {
   background-color: #c4301a;
 }
 
-
+.curr-loc{
+  display: none;
+}
 
 /* basic styles */
 
@@ -103,12 +105,22 @@ button {
 .first-section .top-sticky{
 
     padding-top: 15px;
-    padding-right: 28px;
+    padding-right: 24px;
 
     display: flex;
     justify-content: flex-end;
 
     column-gap: 8px;
+}
+
+.first-section .top-sticky .top-login{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  font-size: 16px;
+  line-height: 22px;
 }
 
 
@@ -122,18 +134,18 @@ button {
 
 .delivery {
 
-  font-weight: 500;
-  font-size: 33px;
+  font-weight: 900;
+  font-size: 32px;
   color: white;
   
   font-family: 'Extra-black';
   font-weight: 900;
   letter-spacing: 1px;
   word-spacing: 2px;
-line-height:29px;
+  line-height :28px;
   text-align: center;
   
-  padding-top: 22px;
+  padding-top: 20px;
   max-width: 320px;
 
 }
@@ -148,31 +160,90 @@ line-height:29px;
   border-radius: 36px;
   justify-content: space-between;
 
-  font-size: large;
-  max-width: 300px;
 
-  margin-top: 18px;
+  font-size: large;
+  max-width: 298px;
+  height: 52px;
+  padding: 6px 16px;
+
+  margin-top: 24px;
   box-sizing: border-box;
               
 }
 
 .search input {
   border: none;
-  font-size: medium;
+  
+  padding: 0;
+
+  width: 178px;
+  margin-right: 12px;
+
+}
+
+.search input::placeholder{
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.01px;
+  font-weight: 600;
+}
+
+.search .search-btn{
+  padding: 0;
+  margin: 0;
+
+  width: 24px;
+  height: 24px;
+
+  align-self: center;
+  margin-right:12px;
+
+  background-color:white;
+}
+
+.div-btn-arrow{
+  width: 40px;
+  height: 40px;
+
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-btn{
+  padding: 0;
+  margin: 0;
+
+  width: 24px;
+  height: 24px;
+
+  align-self: center;
+  background-color:white;
+
 }
 
 
 .button-holder{
     display: flex;
-    margin-top: 18px;
+    margin-top: 16px;
     column-gap: 10px;
 }
 
 .login-below {
   /* align-items: center; */
   justify-self: center;
-  padding: 5px 10px;
+  padding: 6px 12px;
 
+  display: flex;
+  column-gap: 3.283px;
+
+  
+
+
+}
+.login-below svg{
+  align-self: center;
 }
 
 .login-below p {
@@ -193,35 +264,33 @@ line-height:29px;
 
 .ad-section{
 
+    padding: 20px;
     margin-top: 20px;
     /* padding-top: 19px;
      */
-     padding: 20px;
-    margin-right: 20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-    margin-bottom: 0px;
 
     justify-self: center;
     display: flex;
     flex-direction: column;
-    row-gap: 3px;
+    /* row-gap: 3px; */
 
-    align-items: center;
+
+    /* justify-content:space-between ; */
 
     background-color: var(--light-grey);
     border: 1px solid var(--border-grey);
     border-radius: 18px;
 
-    max-width: 358px;
-    justify-content: center;
+   width: 318px;
+    
 }
 
 .ad-first-line{
     display: flex;
-    column-gap: 8px;
+    
       align-self: flex-start;
       justify-content: start;
+      height: 64px;
     /* padding-left: 25px ;
     padding-right: 90px ; */
     /* position: relative;
@@ -230,72 +299,88 @@ line-height:29px;
 
     
 }
-
+.ad-first-line .ad-contents .five-star svg path{
+  fill: rgb(235, 177, 30)
+}
+.ad-first-line .ad-contents .five-star{
+  margin-top: 2px;
+}
 
 .ad-first-line .ad-contents{
     display: flex;
     flex-direction: column;
-    row-gap: 2px;
+    
 } 
 /* .ad-section .ad-first-line .ad-contents */
+.ad-section .ad-first-line .ad-contents h3 {
 
-.ad-section .ad-first-line .ad-contents h3,h5{
-  font-size: 0.9em;
-  margin: 0 0;
-  text-align: left;
-  letter-spacing: 0.00001em;
-  word-spacing: 0.1px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  font-family: 'Bold';
+  letter-spacing: -0.01px;
+  line-height: 20px;
+
 }
 
-.ad-section .ad-first-line .ad-contents h5{
-  font-size: 0.9em;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 4px;
+.ad-section .ad-first-line .ad-contents h5 {
 
-  text-align: left;
-  letter-spacing: 0.00001em;
-  word-spacing: 0.1px;
+  margin: 0;
+  padding: 0;
+
   font-family: 'Regular';
-  color: grey;
+  font-size: 14px;
+  line-height: 20px;
+  
+  margin-top: 2px;
+  margin-left: 4px;
+  
+  letter-spacing: -0.01px;
+  color: gray;
 }
 
-.ad-section .ad-first-line .ad-contents h3{
-  font-size: 1.2em;
-  font-family: 'Bold';
-  margin: 0 0;
-  text-align: left;
-  letter-spacing: -0.5px;
-  word-spacing: 0.1px;
-}
-.ad-section .ad-first-line .ad-contents p{
+.ad-section .ad-first-line .ad-contents p {
+
+  margin: 0;
+  padding: 0;
+
   display: inline;
-  letter-spacing: 0.00001em;
-  word-spacing: 0.1px;
-  font-size: 0.9em;
-  color: grey;
-  font-family: 'Bold';
 
+  font-size: 14px;
+  font-family: 'Regular';
+  color: gray;
+
+  letter-spacing: -0.01px;
+  line-height: 20px;
+  
+ 
 }
+
 
 .ad-section .ad-first-line .ad-logo{
   border: 1px solid var(--border-grey);
   background-color: white;
   /* padding: 8px 8px; */
-  padding-top: 8px;
-  padding-bottom: 5px;
-  padding-right: 11px;
-  padding-left: 7px;
+  padding: 8px;
+  margin: 0;
   align-self: center;
   border-radius: 12px;
-  margin-bottom: 5.5px;
+  margin-right: 8px;
+
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-self: start;
+  justify-self: start;
+
+
 }
 
 .ad-section .ad-second-line{
-  padding-left: 100px ;
-  padding-right: 102px ;
-  margin-top: 10px;
+  margin-top: 16px;
+  padding: 9px auto;
  
 }
 
