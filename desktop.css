@@ -5,21 +5,27 @@
     }
 
     .first-section .first-center .sign-in-desktop {
-
         display: flex;
     }
 
     .sign-in-desktop {
         display: flex;
         margin-top: 16px;
-        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+        box-shadow:rgba(25, 25, 25, 0) 0px 0px 0px 1px inset,   
+                rgba(25, 25, 25, 0.2) 0px 2px 8px 0px;
         font-size: 14px;
         letter-spacing: 0.23px;
         column-gap: 3.5px;
-        font-weight: 600;
+        /* font-weight: 600; */
         padding: 6px 13px;
-        font-family: 'Bold';
+        font-family: 'Regular';
     }
+    
+        .sign-in-desktop  p{
+            font-size: 14px;
+        letter-spacing: 0.23px;
+        font-family: 'Regular';
+        }
 
 
 
@@ -27,7 +33,7 @@
         /* background-color: /aqua; */
         font-size: 40px;
         max-width: 100%;
-        padding-top: 75px;
+        padding-top: 76px;
         letter-spacing: -0.01px;
         line-height: 40px;
 
@@ -147,10 +153,6 @@
     } */
 
 
-
-
-
-
     .third-section .feature {
 
         margin-left: auto;
@@ -167,12 +169,14 @@
 
     body>section:nth-child(5)>div.feature.feature-2 {
         justify-content: center;
-    }
+    }           
 
     /* footer */
 
     footer .last-svg {
         justify-content: space-between;
     }
+
+    
 
 }

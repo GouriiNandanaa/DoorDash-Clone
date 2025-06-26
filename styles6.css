@@ -1,10 +1,11 @@
 :root {
   --primary: #f84424;
   --site-red: #eb1700;
-  --border-grey : #f1f1f1;
+  --border-grey: #f1f1f1;
   --light-grey: #f7f7f7;
-  --light-black : #282828;
-}  
+  --light-black: #282828;
+}
+
 .sixth-section {
 
 
@@ -19,40 +20,31 @@
 
   color: var(--light-black);
 }
-.sixth-section .sixth-heading{
-padding-bottom: 20px;
+
+.sixth-section .sixth-heading {
+  padding-bottom: 20px;
 
 
 }
+
 .sixth-section .sixth-heading h1 {
   font-family: 'Bold';
   text-align: center;
-  padding-bottom:20px ;
+  padding-bottom: 0px;
   max-width: 300px;
-
   justify-content: center;
   margin-top: 20px;
+  /*  margin-top: -2px;  */
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 0px;
-    box-sizing: border-box;
-  
-
-}
-.sixth-section .sixth-heading h1 {
-  font-family: 'Bold';
-  text-align: center;
-  justify-content: center;
-  /* margintop */
-  /* margin-top: -2px; */
-  padding-bottom: 0px;
+  box-sizing: border-box;
   font-weight: 600;
-  /* margin-top: 10px; */
+}
 
-}
-body > section.sixth-section > div.scroll-view{
-  padding-bottom: 0px;
-}
+
+
+
 
 .sixth-section .scroll-view {
   display: flex;
@@ -62,25 +54,27 @@ body > section.sixth-section > div.scroll-view{
   /* gap: 6px; */
   /* padding-left: 8%;
   padding-right: 8%; */
- 
+
   text-align: center;
   align-items: start;
+  padding-bottom: 0px;
+  height: 422px;
   /* align-items: center;
-  justify-content: center; */ 
+  justify-content: center; */
 }
 
 .sixth-section .scroll-view::-webkit-scrollbar {
   width: 0;
 }
 
-.sixth-section  .supply {
-   width: 80%;
+.sixth-section .supply {
+  width: 80%;
   max-height: 590px;
   text-align: center;
-  flex: 0 0 auto; 
+  flex: 0 0 auto;
 
-   margin-left: 5%; 
-  margin-right: -10%; 
+  margin-left: 5%;
+  margin-right: -10%;
 
   padding-top: 20px;
   padding-right: 20px;
@@ -90,38 +84,85 @@ body > section.sixth-section > div.scroll-view{
 }
 
 
-body > section.sixth-section > div.scroll-view > div:nth-child(3) > div.contents > p:nth-child(4){
+body>section.sixth-section>div.scroll-view>div:nth-child(3)>div.contents>p:nth-child(4) {
   margin-top: 10px;
 }
-body > section.sixth-section > div.scroll-view > div:nth-child(3) > div.contents > button{
+
+body>section.sixth-section>div.scroll-view>div:nth-child(3)>div.contents>button {
   margin-bottom: 0px;
 }
-.sixth-section  .supply p,
+
+/* .sixth-section .supply p,
 h3 {
-    font-size: 14px;
-    font-weight: 600;
-    
+  font-size: 14px;
+  font-weight: 600;
+
   text-align: center;
   width: 100%;
   margin-top: -10px;
-}
-     
-.sixth-section  .supply .img {
-    height: 180px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+} */
+
+.sixth-section .supply .img {
+  height: 184px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-.sixth-section  .supply img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
+.sixth-section .supply img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
-.sixth-section  .supply button {
+
+
+
+.sixth-section .sixth-heading {
+  justify-self: center;
+  align-self: center;
+  padding-top: 20px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 28px;
+}
+
+.sixth-section .supply .contents {
+  /* justify-self: center; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sixth-section .supply .contents h1 {
+  /* justify-self: center; */
+  margin: 0;
+  max-width: 90%;
+  font-family: 'Bold';
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sixth-section .supply .contents p {
+  /* justify-self: center; */
+  margin: 0;
+  max-width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.sixth-section .supply .contents button {
   margin-top: 20px;
   margin-bottom: 0px;
   font-size: 14px;
@@ -131,22 +172,6 @@ h3 {
 }
 
 
-
-.sixth-section .sixth-heading{
-    justify-self: center;
-    align-self: center;
-    padding-top: 20px;
-    margin-top: 0;
-    margin-bottom: 0px;
-    line-height: 28px;
+.sixth-section .scroll-view .last {
+  margin-right: 5%;
 }
-
-.sixth-section  .supply .contents{
-    /* justify-self: center; */
-    width: 100%;
-}
-
-.sixth-section .scroll-view .last{
-  margin-right: 5%; 
-}
-

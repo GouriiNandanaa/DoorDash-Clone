@@ -254,6 +254,10 @@ footer .remaining {
 @media screen and (min-width: 768px) {
 
 
+  .footer-container {
+    background-color: #191919ff;
+  }
+
   footer .remaining {
     display: flex;
     flex-direction: row;

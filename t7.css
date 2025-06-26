@@ -14,16 +14,26 @@
 
     .with-bg .feature .img{
         width: auto;
+        height: 504px;
     }
+
+    .with-bg .feature .img img{
+        height: 500px;
+    }
+     
 
     .with-bg .feature:nth-child(1){
         height: 504px;
     }
 
     .with-bg{
-        padding: 20px;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+
         margin-top: 0px;
-        background: linear-gradient(to bottom, transparent 485px, #fef1ee 485px);
+        background: linear-gradient(to bottom, transparent 488px, #fef1ee 488px);
         /* height: 1008px; */
     }
 
@@ -60,9 +70,13 @@
     .with-bg .feature.grow-your-business .img{
         width: auto;
     }
+    .with-bg .feature.grow-your-business .img img{
+        height: 500px;
+    }
     .with-bg .feature.grow-your-business{
         padding-top: 80px;
-        margin-top: -54px;
+        /* border-top: 1px solid green; */
+        margin-top: -56px;
     }
     .with-bg .feature.grow-your-business{
         height: 504px;
