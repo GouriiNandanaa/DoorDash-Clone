@@ -1,39 +1,39 @@
 .second-section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    max-width: 367px;
-    justify-content: center;
-    align-items: center;
-    justify-self: center;
+  max-width: 367px;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
 
-    row-gap:2.5px;
-    margin-top: 48px;
+  row-gap: 2.5px;
+  margin-top: 48px;
 
 
-    
-    
+
+
 
 }
 
-.second-section .second-div img{
-    /* width: 124px;
+.second-section .second-div img {
+  /* width: 124px;
     height: 124px; */
-    width: 88px;
+  width: 88px;
 }
 
-.second-section .second-div{
-    justify-self: center;
-    text-align: start;
-    width: 370px;
-    height: 184px;
-    padding: 16px;
+.second-section .second-div {
+  justify-self: center;
+  text-align: start;
+  width: 370px;
+  height: 184px;
+  padding: 16px;
 }
 
-.second-section .second-div{
-    display: flex;
-    column-gap: 32px;
-    align-items: start;
+.second-section .second-div {
+  display: flex;
+  column-gap: 32px;
+  align-items: start;
 }
 
 /* after this */
@@ -54,7 +54,7 @@
 }
 
 .second-section a {
-    border-top: 12px;
+  border-top: 12px;
   font-family: 'Bold';
   font-size: 14px;
   color: var(--primary);
@@ -89,12 +89,11 @@
 .second-content h2 {
   font-size: 1.8em;
 }
-body > section:nth-child(5) > div:nth-child(1){
+
+body>section:nth-child(5)>div:nth-child(1) {
   margin-top: 20px;
 }
 
-.second-section .second-div .second-content{
+.second-section .second-div .second-content {
   /* min-width: 30%; */
 }
-
-

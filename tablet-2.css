@@ -1,197 +1,231 @@
 :root {
-  --primary: #f84424;
-  --site-red: #eb1700;
-  --border-grey : #f1f1f1;
-  --light-grey: #f7f7f7;
-  --light-black : #282828;
+    --primary: #f84424;
+    --site-red: #eb1700;
+    --border-grey: #f1f1f1;
+    --light-grey: #f7f7f7;
+    --light-black: #282828;
 }
-*{
+
+* {
     color: var(--light-black);
 }
 
 @media screen and (min-width:769px) {
-    .banner{
+    .banner {
         display: none;
     }
-    .first-section{
+
+    .first-section {
         height: 650px;
     }
-    .first-section .first-center .logo{
-        transform: translateY(-155px);
+
+    .first-section .first-center .logo {
+        transform: translateY(-153px);
     }
-    
+
 
     /* .first-section .top-sticky .btn{
         padding-left: 20px;
     } */
 
-    .first-section .top-sticky{
+
+    .first-section .top-sticky {
+
+        padding-top: 16px;
         padding-right: 24px;
-    }
 
-    .first-section .top-sticky .btn {
-        font-weight: bold;
-        background-color: white;
-        padding: 10px 10px;
-        color: black;
-        border-radius: 36px;
-        font-size: 18px;
-        display: inline-block;
-        
-    }
-
-    .first-section .top-sticky .white-btn{
-        background-color: var(--site-red);
-        color: white;
-        font-size: 18px;
-        cursor: pointer;
-        transition: background-color 0.15s;
-    }
-
-    .first-section .top-sticky .red-btn{
-        font-family: 'Bold';
-        background-color: white;
-        padding: 10px 10px;
-        color: var(--light-black);
-        border-radius: 36px;
-        font-size: 18px;
-        display: inline-block;
-        /* box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05); */
-        cursor: pointer;
-    }
-
-    .search{
-        /* padding: 20px 8px 8px 8px; */
-        max-width: 409px;
-        margin-top: 23px;
-        padding: 3px;
-         min-width: 405px;
-
-
-        
-    }
-    .search input{
-        font-family: 'Regular';
-        font-weight: 600;
-        /* width:  */
-        min-width: 300px;
-       
-    }
-    .div-btn-arrow{
-        /* position: relative;
-        left: -px; */
-        padding-right: 5px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        background-color: #fff;
-        border-radius: 36px;
         display: flex;
-        align-items: center;
+        justify-content: flex-end;
+
+        column-gap: 8px;
     }
-    .search .arrow-btn{
-        padding: 6px;
+
+    .first-section .top-sticky .top-login {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.3px;
+
+        font-family: 'Regular';
+    }
+
+    .first-section .top-sticky .white-btn {
         background-color: var(--site-red);
-        border-radius: 36px;
         color: white;
 
+    }
+
+    .first-section .top-sticky .red-btn {
+        background-color: white;
+        color: var(--light-black);
 
     }
 
-    .button-holder{
+    .search .mobile {
         display: none;
     }
 
-    .sign-in-tablet{
+    .search .tablet {
+        display: block;
+
+    }
+
+    .search {
+        /* padding: 20px 8px 8px 8px; */
+
+        max-width: 408px;
+        height: 56px;
+        padding: 8px 8px 8px 20px;
+
+        margin-top: 24px;
+        box-sizing: border-box;
+    }
+
+    .search input {
+        width: 392px;
+    }
+
+    .search input::placeholder {
+        font-size: 15px;
+        letter-spacing: 0.1px;
+        font-weight: 600;
+    }
+
+    .div-btn-arrow {
         display: flex;
-        margin-top: 17px;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    body>section.first-section>div.first-center>div.search>div>button>svg>path {
+        color: white;
+    }
+
+    .search .arrow-btn {
+        background-color: var(--site-red);
+        border-radius: 36px;
+        color: white;
+        width: 40px;
+        height: 40px;
+    }
+
+    .button-holder {
+        display: none;
+    }
+
+    .sign-in-tablet {
+        display: flex;
+        margin-top: 16px;
         box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
         font-size: 14px;
-        column-gap: 5px;
+        column-gap: 3px;
         padding: 7px 13px;
     }
 
-    .first-section .first-center .delivery{
-        font-size: 41px;
+    .first-section .first-center .delivery {
+        font-size: 40px;
         max-width: 100%;
-        padding-top: 88px;
-        letter-spacing: 2px;
-        
+        padding-top: 79px;
+        letter-spacing: -0.01px;
+        line-height: 40px;
+        /* letter-spacing: 2px; */
     }
 
-    body > section.first-section > div.first-center > div.search > div > button svg{
+    body>section.first-section>div.first-center>div.search>div>button svg {
         fill: white;
         color: white;
     }
 
-
-
-
-    .top-scrolling-sticky{
+    .top-scrolling-sticky {
         /* height: 28px; */
     }
 
-    .ad-section{
+    .ad-section {
         display: none;
     }
 
-    /* second-section */        
-
-    
-.second-section .second-div img{
-    width: 124px;
-    height: 124px;
-}
-
-.second-section .second-div{
-    column-gap: 63px;
-}
-
-.second-section .second-div .second-content{
-    min-width: 250px;
-    padding-top: 2px;
-}
-
-.second-section{ 
-    margin-top: 40px;
-    row-gap: 0px;
-    max-width: 656px;
-    /* font-size: 32px; */
-}
-
-.second-section .second-div h2{
-    font-size: 33px;
-}
-    .second-section .second-div
-{
-    width: 438px;
-}
-
-body > section.second-section > div:nth-child(3) > div.second-content.sixsix > a{
-    /* display: block; */
-    /* margin-top: -30px; */
-    /* margin-bottom: 110px; */
-}
-body > section.second-section > div:nth-child(3) > div.second-content.sixsix > h2{
-    line-height: 40px;
-}
+    /* second-section */
 
 
+    .second-section .second-div img {
+        width: 124px;
+        height: 124px;
+    }
 
-    .forth .shop h3{
+    .second-section .second-div {
+        column-gap: 63px;
+    }
+
+    .second-section .second-div .second-content {
+        min-width: 250px;
+        padding-top: 2px;
+    }
+
+    .second-section {
+        margin-top: 40px;
+        row-gap: 0px;
+        max-width: 656px;
+        /* font-size: 32px; */
+    }
+
+    .second-section .second-div h2 {
+        font-size: 33px;
+    }
+
+    .second-section .second-div {
+        width: 438px;
+    }
+
+    body>section.first-section>div.top-sticky>button.btn.white-btn.top-login.tablet {
+        display: block;
+    }
+
+    body>section.first-section>div.top-sticky>button.btn.red-btn.top-login.tablet {
+        display: block;
+    }
+
+    body>section.first-section>div.top-sticky>button.btn.white-btn.top-login.mobile {
+        display: none;
+    }
+
+    body>section.first-section>div.top-sticky>button.btn.red-btn.top-login.mobile {
+        display: none;
+    }
+
+    body>section.second-section>div:nth-child(3)>div.second-content.sixsix>a {
+        /* display: block; */
+        /* margin-top: -30px; */
+        /* margin-bottom: 110px; */
+    }
+
+    body>section.second-section>div:nth-child(3)>div.second-content.sixsix>h2 {
+        line-height: 40px;
+    }
+
+
+
+    .forth .shop h3 {
         font-size: 40px;
         letter-spacing: -0.01px;
         line-height: 40px;
         margin-top: 20px;
         margin-bottom: 0px;
     }
-    .forth .shop h4{
+
+    .forth .shop h4 {
         font-size: 20px;
         letter-spacing: -0.01px;
         line-height: 20px;
         margin-top: 20px;
         margin-bottom: 0px;
     }
-    .forth .shop p{
+
+    .forth .shop p {
         font-family: 'Bold';
         font-size: 16px;
         letter-spacing: -0.01px;
@@ -199,35 +233,20 @@ body > section.second-section > div:nth-child(3) > div.second-content.sixsix > h
         margin-top: 10px;
         margin-bottom: 0px;
     }
-    .forth .shop button{
+
+    .forth .shop button {
         margin-top: 30px;
         padding-right: 12px;
         padding-left: 12px;
         padding-top: 8px;
         padding-bottom: 8px;
-        font-size :16px;
+        font-size: 16px;
     }
 
-    .below-black-image{
+    .below-black-image {
         padding: 60px 20px 20px 20px !important;
     }
 }
 
 
 /* 326 296 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

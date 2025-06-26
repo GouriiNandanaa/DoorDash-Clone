@@ -1,13 +1,12 @@
 :root {
   --primary: #f84424;
   --site-red: #eb1700;
-  --border-grey : #f1f1f1;
+  --border-grey: #f1f1f1;
   --light-grey: #f7f7f7;
-  --light-black : #282828;
+  --light-black: #282828;
 }
 
-body
-{
+body {
   overflow-x: scroll;
 }
 
@@ -65,55 +64,55 @@ button {
   background-color: #c4301a;
 }
 
-.curr-loc{
+.curr-loc {
   display: none;
 }
 
 /* basic styles */
 
-.top-scrolling-sticky{
+.top-scrolling-sticky {
   /* position: fixed;
   top: 0;
   height: 56px;
   width: 100%;
   background-color: white;
   z-index: 999; */
-  display: none; 
+  display: none;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
   /* padding: 10px 20px; */
   /* border-bottom: 1px solid var(--border-grey); */
 }
 
-.banner{
-    height: 96px;
+.banner {
+  height: 96px;
 }
 
-.first-section{
-    background: url(assets/images/bg--plate--.jpg);
-    background-size: cover;
-    /* important to add this cover */
-    background-repeat: no-repeat;
-    background-position: center;
+.first-section {
+  background: url(assets/images/bg--plate--.jpg);
+  background-size: cover;
+  /* important to add this cover */
+  background-repeat: no-repeat;
+  background-position: center;
 
-    overflow-x: hidden;
-    font-family: 'Regular';
-    height: 550px;
+  overflow-x: hidden;
+  font-family: 'Regular';
+  height: 550px;
 }
 
 
 
-.first-section .top-sticky{
+.first-section .top-sticky {
 
-    padding-top: 15px;
-    padding-right: 24px;
+  padding-top: 15px;
+  padding-right: 24px;
 
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 
-    column-gap: 8px;
+  column-gap: 8px;
 }
 
-.first-section .top-sticky .top-login{
+.first-section .top-sticky .top-login {
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 9px;
@@ -137,16 +136,16 @@ button {
   font-weight: 900;
   font-size: 32px;
   color: white;
-  
-  font-family: 'Extra-black';
+
+  font-family: TTNormsProCond-Blk, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 900;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  line-height :28px;
+  letter-spacing: -0.01px;
+  /* word-spacing: 2px; */
+  line-height: 28px;
   text-align: center;
-  
+
   padding-top: 20px;
-  max-width: 320px;
+  max-width: 350px;
 
 }
 
@@ -168,12 +167,12 @@ button {
 
   margin-top: 24px;
   box-sizing: border-box;
-              
+
 }
 
 .search input {
   border: none;
-  
+
   padding: 0;
 
   width: 178px;
@@ -181,14 +180,18 @@ button {
 
 }
 
-.search input::placeholder{
+.search input::placeholder {
   font-size: 15px;
   line-height: 16px;
   letter-spacing: 0.01px;
   font-weight: 600;
 }
 
-.search .search-btn{
+.search .tablet {
+  display: none;
+}
+
+.search .search-btn {
   padding: 0;
   margin: 0;
 
@@ -196,12 +199,12 @@ button {
   height: 24px;
 
   align-self: center;
-  margin-right:12px;
+  margin-right: 12px;
 
-  background-color:white;
+  background-color: white;
 }
 
-.div-btn-arrow{
+.div-btn-arrow {
   width: 40px;
   height: 40px;
 
@@ -211,7 +214,7 @@ button {
   justify-content: center;
 }
 
-.arrow-btn{
+.arrow-btn {
   padding: 0;
   margin: 0;
 
@@ -219,15 +222,15 @@ button {
   height: 24px;
 
   align-self: center;
-  background-color:white;
+  background-color: white;
 
 }
 
 
-.button-holder{
-    display: flex;
-    margin-top: 16px;
-    column-gap: 10px;
+.button-holder {
+  display: flex;
+  margin-top: 16px;
+  column-gap: 10px;
 }
 
 .login-below {
@@ -236,18 +239,22 @@ button {
   padding: 6px 12px;
 
   display: flex;
-  column-gap: 3.283px;
+  column-gap: 3px;
 
-  
+
 
 
 }
-.login-below svg{
+
+.login-below svg {
   align-self: center;
 }
 
 .login-below p {
   display: inline;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.56px;
 }
 
 
@@ -262,55 +269,61 @@ button {
 
 }
 
-.ad-section{
+.ad-section {
 
-    padding: 20px;
-    margin-top: 20px;
-    /* padding-top: 19px;
+  padding: 20px;
+  margin-top: 20px;
+  /* padding-top: 19px;
      */
 
-    justify-self: center;
-    display: flex;
-    flex-direction: column;
-    /* row-gap: 3px; */
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 3px; */
 
 
-    /* justify-content:space-between ; */
+  /* justify-content:space-between ; */
 
-    background-color: var(--light-grey);
-    border: 1px solid var(--border-grey);
-    border-radius: 18px;
+  background-color: var(--light-grey);
+  border: 1px solid var(--border-grey);
+  border-radius: 18px;
 
-   width: 318px;
-    
+  width: 318px;
+
 }
 
-.ad-first-line{
-    display: flex;
-    
-      align-self: flex-start;
-      justify-content: start;
-      height: 64px;
-    /* padding-left: 25px ;
+.ad-first-line {
+  display: flex;
+
+  align-self: flex-start;
+  justify-content: start;
+  height: 64px;
+  /* padding-left: 25px ;
     padding-right: 90px ; */
-    /* position: relative;
+  /* position: relative;
   left: 200px; */
   /* width: 800px; */
 
-    
+
 }
-.ad-first-line .ad-contents .five-star svg path{
-  fill: rgb(235, 177, 30)
+
+
+.ad-first-line .ad-contents .five-star svg path {
+  fill: rgb(235, 177, 30);
+ 
+
 }
-.ad-first-line .ad-contents .five-star{
+
+.ad-first-line .ad-contents .five-star {
   margin-top: 2px;
 }
 
-.ad-first-line .ad-contents{
-    display: flex;
-    flex-direction: column;
-    
-} 
+.ad-first-line .ad-contents {
+  display: flex;
+  flex-direction: column;
+
+}
+
 /* .ad-section .ad-first-line .ad-contents */
 .ad-section .ad-first-line .ad-contents h3 {
 
@@ -332,10 +345,10 @@ button {
   font-family: 'Regular';
   font-size: 14px;
   line-height: 20px;
-  
+
   margin-top: 2px;
   margin-left: 4px;
-  
+
   letter-spacing: -0.01px;
   color: gray;
 }
@@ -353,12 +366,12 @@ button {
 
   letter-spacing: -0.01px;
   line-height: 20px;
-  
- 
+
+
 }
 
 
-.ad-section .ad-first-line .ad-logo{
+.ad-section .ad-first-line .ad-logo {
   border: 1px solid var(--border-grey);
   background-color: white;
   /* padding: 8px 8px; */
@@ -378,10 +391,18 @@ button {
 
 }
 
-.ad-section .ad-second-line{
+.ad-section .ad-second-line {
   margin-top: 16px;
   padding: 9px auto;
- 
+
+}
+
+body>section.first-section>div.top-sticky>button.btn.white-btn.top-login.tablet {
+  display: none;
+}
+
+body>section.first-section>div.top-sticky>button.btn.red-btn.top-login.tablet {
+  display: none;
 }
 
 
@@ -433,6 +454,10 @@ button {
 
 
 
-.sign-in-tablet{
+.sign-in-tablet {
+  display: none;
+}
+
+.sign-in-desktop {
   display: none;
 }

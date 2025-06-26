@@ -1,7 +1,39 @@
 @media screen and (min-width:1184px) {
 
-    
-    .second-section{
+    .first-section .first-center .sign-in-tablet {
+        display: none;
+    }
+
+    .first-section .first-center .sign-in-desktop {
+
+        display: flex;
+    }
+
+    .sign-in-desktop {
+        display: flex;
+        margin-top: 16px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+        font-size: 14px;
+        letter-spacing: 0.23px;
+        column-gap: 3.5px;
+        font-weight: 600;
+        padding: 7px 13px;
+        font-family: 'Bold';
+    }
+
+
+
+    .first-section .first-center .delivery {
+        /* background-color: /aqua; */
+        font-size: 40px;
+        max-width: 100%;
+        padding-top: 77px;
+        letter-spacing: -0.01px;
+        line-height: 40px;
+
+    }
+
+    .second-section {
         display: flex;
         flex-direction: row;
 
@@ -12,17 +44,17 @@
         margin-top: 0px !important;
 
 
-        
+
         width: 1080px;
         min-width: 1080px;
         height: 606px;
 
         padding: 12px;
         padding-bottom: 18px;
-        
+
     }
 
-    .second-section .second-div{
+    .second-section .second-div {
         width: 328px;
         max-width: 328px;
         height: 388px;
@@ -30,28 +62,31 @@
         flex-direction: column;
         text-align: center;
 
-        margin:0;
+        margin: 0;
         margin-top: px;
     }
-    .second-section .second-div .twotwo, .second-section .second-div .fourfour, .second-section .second-div .sixsix{
+
+    .second-section .second-div .twotwo,
+    .second-section .second-div .fourfour,
+    .second-section .second-div .sixsix {
         max-height: 234px;
         width: 250px;
     }
 
-    .second-section .second-div .sixsix{
+    .second-section .second-div .sixsix {
         padding-top: 0;
     }
 
-    .second-section .second-div .second-content h2{
+    .second-section .second-div .second-content h2 {
         font-size: 32px;
         line-height: 40px;
         letter-spacing: -0.01px;
 
         margin: 0;
-        
+
     }
 
-    .second-section .second-div .second-content p{
+    .second-section .second-div .second-content p {
         font-size: 18px;
         line-height: 24px;
         letter-spacing: -0.01px;
@@ -59,7 +94,8 @@
         margin-bottom: 10px;
         margin-top: 8px;
     }
-    .second-section .second-div .second-content a{
+
+    .second-section .second-div .second-content a {
         font-size: 18px;
         line-height: 22px;
         letter-spacing: -0.01px;
@@ -69,7 +105,9 @@
         margin-top: 12px;
     }
 
-    .second-section .second-div .oneone,.second-section .second-div .threethree,.second-section .second-div .fivefive{
+    .second-section .second-div .oneone,
+    .second-section .second-div .threethree,
+    .second-section .second-div .fivefive {
         margin: 0;
         padding: 0;
 
@@ -81,16 +119,18 @@
         width: 154px;
         margin-left: 55px;
 
-    
+
     }
 
-    .second-section .second-div .oneone img,.second-section .second-div .threethree img,.second-section .second-div .fivefive img{
+    .second-section .second-div .oneone img,
+    .second-section .second-div .threethree img,
+    .second-section .second-div .fivefive img {
         width: 100%;
         height: 100%;
     }
 
-   
-    body > section:nth-child(5){
+
+    body>section:nth-child(5) {
         margin-top: 0px;
     }
 
@@ -108,19 +148,28 @@
 
 
 
-    .third-section .feature{
+    .third-section .feature {
+
         margin-left: auto;
-margin-right: auto;
-/* top and bottom remain as-is */
+        margin-right: auto;
+        /* top and bottom remain as-is */
 
         /* justify-content: center; */
     }
-    /* .third-section .feature-2{
-        margin-left: auto;
-        margin-right: auto;
-    } */
 
-    body > section:nth-child(5) > div.feature.feature-2{
+    .third-section .feature-2 {
+        margin-left: -20px;
+        margin-right: auto;
+    }
+
+    body>section:nth-child(5)>div.feature.feature-2 {
         justify-content: center;
     }
+
+    /* footer */
+
+    footer .last-svg {
+        justify-content: space-between;
+    }
+
 }

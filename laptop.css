@@ -1,51 +1,84 @@
 @media screen and (min-width:960px) {
-    body > section.first-section > div.first-center > div.logo > svg:nth-child(1){
+    body>section.first-section>div.first-center>div.logo>svg:nth-child(1) {
         width: 42px;
         height: 24px;
     }
+
     .first-section .first-center .logo .second-logo {
         width: 155px;
         height: 18px;
 
-        fill: yellow;
+        fill: white;
 
     }
-    .first-section .first-center .logo{
-       
-        width:209px;
+
+    .first-section .first-center .logo {
+
+        width: 209px;
         gap: 12px;
-        
-    }
-    
-/* 
-    body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(1){
-        height: 18px;
-        width: auto;
-    }
-    body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(2){
-        height: 18px;
-        width: auto;
-    }
-    body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(3){
-        height: 18px;
-        width: auto;
-    }
-    body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(4){
-        height: 18px;
-        width: auto;
+
     }
 
-    body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(5){
-        height: 18px;
-        width: auto;
-    }body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(6){
-        height: 18px;
-        width: auto;
-    }body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(7){
-        height: 18px;
-        width: auto;
-    }body > section.first-section > div.first-center > div.logo > svg:nth-child(2) > path:nth-child(8){
-        height: 18px;
-        width: auto;
-    }*/
-} 
+    .first-section .first-center .sign-in-tablet {
+        display: none;
+    }
+
+    .first-section .first-center .sign-in-desktop {
+
+        display: flex;
+    }
+
+    .sign-in-desktop {
+        display: flex;
+        margin-top: 16px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+        font-size: 14px;
+        letter-spacing: 0.23px;
+        column-gap: 3.5px;
+        font-weight: 600;
+        padding: 7px 13px;
+        font-family: 'Bold';
+    }
+
+
+    .first-section .first-center .delivery {
+        /* background-color: /aqua; */
+        font-size: 40px;
+        max-width: 100%;
+        padding-top: 75px;
+        letter-spacing: -0.01px;
+        line-height: 40px;
+
+    }
+    footer{
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
+    footer .side-ways {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        flex: 1;
+    }
+
+    footer .side-ways .svgs {
+        padding-top: 32px;
+        width: 50%;
+    }
+
+    footer .side-ways .remaining {
+        width: 50%;
+    }
+
+    footer .svgs {
+        margin: 0 0;
+    }
+
+     footer .last-svg {
+        justify-content: space-between;
+    }
+
+
+}

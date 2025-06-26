@@ -62,6 +62,7 @@
   /* margin-bottom: 7px; */
   margin-top: 20px;
   margin-bottom: 0px;
+  width: 90%;
   
   text-align: start;
 }
@@ -104,7 +105,7 @@
   max-height: 30px; */
   padding: 7px 15px;
 }
-
+          
 .third-section .feature-2{
   height: 334px;
   margin-top: 20px;
@@ -179,9 +180,10 @@ body > section.third-section.with-bg > div.feature.grow-your-business > div.desc
 }
 
 body > section.third-section.with-bg > div.feature.grow-your-business{
-  height: 354px;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 /* .with-bg .grow-your-business{
   margin
-} */
+} */                              
