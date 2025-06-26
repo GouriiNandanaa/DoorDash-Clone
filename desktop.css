@@ -17,7 +17,7 @@
         letter-spacing: 0.23px;
         column-gap: 3.5px;
         font-weight: 600;
-        padding: 7px 13px;
+        padding: 6px 13px;
         font-family: 'Bold';
     }
 
@@ -27,55 +27,63 @@
         /* background-color: /aqua; */
         font-size: 40px;
         max-width: 100%;
-        padding-top: 77px;
+        padding-top: 75px;
         letter-spacing: -0.01px;
         line-height: 40px;
 
     }
 
+    /* yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy */
+
     .second-section {
         display: flex;
         flex-direction: row;
 
-        margin: 0 0;
         padding: 0;
         justify-content: space-between;
-        /* padding: 12px; */
-        margin-top: 0px !important;
-
-
 
         width: 1080px;
         min-width: 1080px;
-        height: 606px;
 
-        padding: 12px;
-        padding-bottom: 18px;
+        margin: 108px 0;
+
+        height: 420px;
+        max-width: unset;
+
 
     }
 
     .second-section .second-div {
-        width: 328px;
-        max-width: 328px;
-        height: 388px;
 
         flex-direction: column;
         text-align: center;
 
         margin: 0;
-        margin-top: px;
+        width: 328px;
+        max-height: none;
+
+        padding: 16px;
+
     }
 
-    .second-section .second-div .twotwo,
-    .second-section .second-div .fourfour,
-    .second-section .second-div .sixsix {
-        max-height: 234px;
-        width: 250px;
+
+
+    .second-section .second-div img {
+        align-self: start;
+        width: 154px;
+        height: 100%;
     }
+
 
     .second-section .second-div .sixsix {
         padding-top: 0;
     }
+
+    .second-section .second-div .second-content {
+        max-width: 250px;
+        height: 232px;
+    }
+
 
     .second-section .second-div .second-content h2 {
         font-size: 32px;
@@ -83,6 +91,7 @@
         letter-spacing: -0.01px;
 
         margin: 0;
+        width: 100%;
 
     }
 
@@ -108,26 +117,20 @@
     .second-section .second-div .oneone,
     .second-section .second-div .threethree,
     .second-section .second-div .fivefive {
-        margin: 0;
-        padding: 0;
-
-        margin-right: 149px;
-
         display: flex;
         justify-content: space-between;
 
         width: 154px;
-        margin-left: 55px;
+        height: 154px;
 
+        margin: 0;
+        padding: 0;
+
+        padding-left: 55px;
 
     }
 
-    .second-section .second-div .oneone img,
-    .second-section .second-div .threethree img,
-    .second-section .second-div .fivefive img {
-        width: 100%;
-        height: 100%;
-    }
+
 
 
     body>section:nth-child(5) {

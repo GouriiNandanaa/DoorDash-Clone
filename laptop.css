@@ -36,7 +36,7 @@
         letter-spacing: 0.23px;
         column-gap: 3.5px;
         font-weight: 600;
-        padding: 7px 13px;
+        padding: 6px 13px;
         font-family: 'Bold';
     }
 
@@ -45,12 +45,20 @@
         /* background-color: /aqua; */
         font-size: 40px;
         max-width: 100%;
-        padding-top: 75px;
+        padding-top: 76px;
         letter-spacing: -0.01px;
         line-height: 40px;
 
     }
-    footer{
+
+    body>section.first-section>div.first-center>div.sign-in-desktop.btn.login-below>p {
+        letter-spacing: -0.01px;
+        font-family: 'Bold';
+        line-height: 20px;
+    }
+
+
+    footer {
         max-width: 1120px;
         margin: 0 auto;
     }
@@ -76,7 +84,7 @@
         margin: 0 0;
     }
 
-     footer .last-svg {
+    footer .last-svg {
         justify-content: space-between;
     }
 
