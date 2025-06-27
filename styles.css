@@ -90,7 +90,7 @@ button {
 .first-section {
   background: url(assets/images/bg--plate--.jpg);
   background-size: cover;
-  /* important to add this cover */
+  /* important to add this cover always remember this */
   background-repeat: no-repeat;
   background-position: center;
 

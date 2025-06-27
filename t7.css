@@ -1,5 +1,5 @@
 @media screen and (min-width:768px) {
-    .with-bg-heading h1{
+    .with-bg-heading h1 {
         font-size: 32px;
         max-width: 500px;
         padding: 0;
@@ -7,81 +7,92 @@
 
 
     }
-    .with-bg-heading{
+
+    .with-bg-heading {
         padding: 60px 20px 40px 20px;
         box-sizing: border-box;
     }
 
-    .with-bg .feature .img{
+    .with-bg .feature .img {
         width: auto;
         height: 504px;
     }
 
-    .with-bg .feature .img img{
+    .with-bg .feature .img img {
         height: 500px;
     }
-     
 
-    .with-bg .feature:nth-child(1){
+
+    .with-bg .feature:nth-child(1) {
         height: 504px;
     }
 
-    .with-bg{
+    .with-bg {
         padding-top: 20px;
         padding-right: 20px;
         padding-bottom: 0px;
         padding-left: 20px;
 
         margin-top: 0px;
-        background: linear-gradient(to bottom, transparent 488px, #fef1ee 488px);
+        background: linear-gradient(to bottom, transparent 484px, #fef1ee 484px);
         /* height: 1008px; */
     }
 
-    .with-bg .feature .desc{
+    .with-bg .feature .desc {
         width: auto;
         max-width: 400px;
         padding-top: 2px;
         padding-bottom: 2px;
     }
 
-    .with-bg .feature .desc h3{
+    .with-bg .feature .desc h3 {
         width: 90%;
     }
+    body>section.third-section.with-bg>div.feature.grow-your-business>div.desc>h3{
+        margin-top: 20px;
+    }
 
-    .with-bg .feature .desc p{
+    .with-bg .feature .desc p {
         margin-top: 20px;
         font-size: 16px;
         line-height: 22px;
         letter-spacing: 0.1px;
         height: 66px;
 
-        
+
     }
-    .with-bg .feature .desc button{
+
+    .with-bg .feature .desc button {
         margin-top: 30px;
         margin-bottom: 0px;
     }
-    .with-bg .feature.grow-your-business .desc{
+
+    .with-bg .feature.grow-your-business .desc {
         width: auto;
         max-width: 400px;
         padding-top: 2px;
         padding-bottom: 2px;
     }
-    .with-bg .feature.grow-your-business .img{
+
+    .with-bg .feature.grow-your-business .img {
         width: auto;
     }
-    .with-bg .feature.grow-your-business .img img{
+
+    .with-bg .feature.grow-your-business .img img {
         height: 500px;
     }
-    .with-bg .feature.grow-your-business{
+
+    .with-bg .feature.grow-your-business {
         padding-top: 80px;
         /* border-top: 1px solid green; */
-        margin-top: -56px;
+        margin-top: -60px;
     }
-    .with-bg .feature.grow-your-business{
+
+    .with-bg .feature.grow-your-business {
         height: 504px;
     }
-    body > section.third-section.with-bg > div:nth-child(1){
+
+    body>section.third-section.with-bg>div:nth-child(1) {
         padding-bottom: 20px;
     }
 }

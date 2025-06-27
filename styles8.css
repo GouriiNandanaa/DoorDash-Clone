@@ -38,6 +38,10 @@ footer .pop-cat h5 {
   margin-bottom: 14px;
 }
 
+body>div.footer-container>footer>div.pop-cat>h5 {
+  margin-bottom: 16px;
+}
+
 body>footer>div.remaining>div:nth-child(1)>h5 {
   margin-bottom: 16px;
 }
@@ -111,6 +115,7 @@ footer .svgs {
 
 
   align-items: center;
+  opacity: 0.7;
   /* background-color: purple; */
 }
 
@@ -271,7 +276,13 @@ footer .remaining {
 
   footer .remaining .pop-cat {
     margin: unset;
+
   }
+
+  footer .pop-cat {
+    align-items: unset;
+  }
+
 
   footer .remaining .get-to-know {
     display: flex;

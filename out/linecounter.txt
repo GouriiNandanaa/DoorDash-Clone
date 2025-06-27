@@ -1,0 +1,155 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2025-06-26 23:54:21
+count workspace : c:\Users\hp\OneDrive\Desktop\doordash2
+total files : 132
+total code lines : 10943
+total comment lines : 745
+total blank lines : 1245
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .css|           2046|            453|            729|     19|
+   |          .html|            537|             28|             86|    4.9|
+   |               |           5204|            126|            303|     48|
+   |      .download|           2917|            135|            127|     27|
+   |            .gz|              7|              3|              0|  0.064|
+   |           .txt|              2|              0|              0|  0.018|
+   |           .svg|            230|              0|              0|    2.1|
+   -------------------------------------------------------------------------
+768.css, code is 10, comment is 2, blank is 2.
+assets\fonts\Rubik-Regular.ttf, it is a binary file.
+assets\fonts\TTNormsPro-Bold.ttf, it is a binary file.
+assets\fonts\TTNormsPro-Regular.ttf, it is a binary file.
+assets\fonts\TTNormsProCondensed-Black.ttf, it is a binary file.
+assets\fonts\TTNormsProCondensed-Bold.ttf, it is a binary file.
+assets\fonts\TTNormsProCondensed-ExtraBlack.ttf, it is a binary file.
+assets\images\alcohol_desktop.avif, it is a binary file.
+assets\images\alcohol_mobile.avif, it is a binary file.
+assets\images\beauty_desktop.avif, it is a binary file.
+assets\images\beauty_mobile.avif, it is a binary file.
+assets\images\become_a_dasher_desktop.avif, it is a binary file.
+assets\images\become_a_dasher_mobile.avif, it is a binary file.
+assets\images\bg--plate--.jpg, it is a binary file.
+assets\images\bg-plate.png, it is a binary file.
+assets\images\convenience_desktop.png, it is a binary file.
+assets\images\convenience_mobile.avif, it is a binary file.
+assets\images\dashpass_desktop.avif, it is a binary file.
+assets\images\dashpass_mobile.avif, it is a binary file.
+assets\images\download_the_app_desktop.avif, it is a binary file.
+assets\images\download_the_app_mobile.avif, it is a binary file.
+assets\images\flowers_desktop.avif, it is a binary file.
+assets\images\flowers_mobile.avif, it is a binary file.
+assets\images\hand-background.avif, it is a binary file.
+assets\images\iphone.svg, code is 42, comment is 0, blank is 0.
+assets\images\pet_supplies_desktop.avif, it is a binary file.
+assets\images\pet_supplies_mobile.avif, it is a binary file.
+assets\images\ScootScoot.svg, code is 56, comment is 0, blank is 0.
+assets\images\Storefront.svg, code is 17, comment is 0, blank is 0.
+assets\images\work_with_doordash_desktop.avif, it is a binary file.
+assets\images\work_with_doordash_mobile.avif, it is a binary file.
+desktop.css, code is 111, comment is 15, blank is 56.
+index.html, code is 321, comment is 15, blank is 74.
+laptop.css, code is 71, comment is 1, blank is 27.
+original-website\Final Project.html, code is 20, comment is 1, blank is 1.
+original-website\Final Project_files\0, code is 0, comment is 0, blank is 0.
+original-website\Final Project_files\0(1), code is 0, comment is 0, blank is 0.
+original-website\Final Project_files\13956-35e1910eb857c0bd.js.download, code is 2, comment is 2, blank is 1.
+original-website\Final Project_files\21324-deb8a642b9d9f7bc.js.download, code is 2, comment is 2, blank is 1.
+original-website\Final Project_files\23005079, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\23005079.js.download, code is 78, comment is 5, blank is 1.
+original-website\Final Project_files\381650d3-a7e6191e3df42132.js.download, code is 2, comment is 2, blank is 1.
+original-website\Final Project_files\44417-5adc0411b66c8d4c.js.download, code is 2, comment is 3, blank is 1.
+original-website\Final Project_files\48740-f23497a6a6a7c76c.js.download, code is 16, comment is 4, blank is 1.
+original-website\Final Project_files\49fdc854-c6d8c4adb342eae5.js.download, code is 2, comment is 2, blank is 1.
+original-website\Final Project_files\56046044, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\56046044.js.download, code is 78, comment is 5, blank is 1.
+original-website\Final Project_files\5a09248fb0d6e07983a8.js.download, code is 1, comment is 1, blank is 0.
+original-website\Final Project_files\71367-b771c417260e6deb.js.download, code is 2, comment is 3, blank is 1.
+original-website\Final Project_files\8244bd5de54317386ec5.js.download, code is 1, comment is 1, blank is 0.
+original-website\Final Project_files\933658699(1).html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\933658699.html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\96A78AF9D886, code is 0, comment is 0, blank is 0.
+original-website\Final Project_files\98834-5152589d7b46a05d.js.download, code is 7, comment is 1, blank is 1.
+original-website\Final Project_files\A1811041-0142-4339-b878-33d0da0e40831.js.download, code is 35, comment is 2, blank is 0.
+original-website\Final Project_files\activityi(1).html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\activityi(2).html, code is 2, comment is 1, blank is 0.
+original-website\Final Project_files\activityi(3).html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\activityi.html, code is 2, comment is 1, blank is 0.
+original-website\Final Project_files\adsct, it is a binary file.
+original-website\Final Project_files\adsct(1), it is a binary file.
+original-website\Final Project_files\amplitude-5.2.2-min.gz.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\amplitude.dynamic.js.gz, code is 2, comment is 1, blank is 0.
+original-website\Final Project_files\amzn.js.download, code is 1, comment is 2, blank is 0.
+original-website\Final Project_files\analytics.js.download, code is 92, comment is 7, blank is 0.
+original-website\Final Project_files\anchor.html, code is 183, comment is 1, blank is 2.
+original-website\Final Project_files\api.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\bat.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\bf37602e-12b08f2444aeac8b.js.download, code is 2, comment is 3, blank is 1.
+original-website\Final Project_files\clarity.js.download, code is 1, comment is 1, blank is 0.
+original-website\Final Project_files\client, code is 336, comment is 16, blank is 1.
+original-website\Final Project_files\common.js.download, code is 205, comment is 0, blank is 0.
+original-website\Final Project_files\commons.a61d7bea37d2de5d4b69.js.gz, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\core.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\dashpass_mobile.png, it is a binary file.
+original-website\Final Project_files\dc_pre=CJirwLC6go4DFfWprAIdjQ0ztw, it is a binary file.
+original-website\Final Project_files\dc_pre=CMGnwLC6go4DFe-erAId-XM1sA, it is a binary file.
+original-website\Final Project_files\destination, code is 467, comment is 13, blank is 51.
+original-website\Final Project_files\destination(1), code is 467, comment is 13, blank is 51.
+original-website\Final Project_files\destination(2), code is 598, comment is 13, blank is 59.
+original-website\Final Project_files\download_the_app_mobile.png, it is a binary file.
+original-website\Final Project_files\e1d0e6c16c28d734.css, code is 1, comment is 1, blank is 0.
+original-website\Final Project_files\enterprise.js.download, code is 1, comment is 1, blank is 0.
+original-website\Final Project_files\f(1).txt, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\f.txt, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\google-tag-manager.dynamic.js.gz, code is 2, comment is 1, blank is 0.
+original-website\Final Project_files\gtm.js.download, code is 784, comment is 10, blank is 79.
+original-website\Final Project_files\iphone.svg, code is 42, comment is 0, blank is 0.
+original-website\Final Project_files\js, code is 667, comment is 14, blank is 64.
+original-website\Final Project_files\js(1), code is 771, comment is 14, blank is 69.
+original-website\Final Project_files\js(2), code is 1887, comment is 43, blank is 8.
+original-website\Final Project_files\main-app-09b69240046eefab.js.download, code is 2, comment is 2, blank is 1.
+original-website\Final Project_files\main.47861135.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\ping.min.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\pixel.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\polyfills-42372ed130431b0a.js.download, code is 2, comment is 2, blank is 0.
+original-website\Final Project_files\recaptcha__en.js.download, code is 1165, comment is 28, blank is 0.
+original-website\Final Project_files\s.js.download, code is 1, comment is 24, blank is 1.
+original-website\Final Project_files\saved_resource, code is 7, comment is 0, blank is 0.
+original-website\Final Project_files\saved_resource(1).html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\saved_resource(2).html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\saved_resource(3).html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\saved_resource(4).html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\saved_resource.html, code is 1, comment is 1, blank is 1.
+original-website\Final Project_files\ScootScoot.svg, code is 56, comment is 0, blank is 0.
+original-website\Final Project_files\singular-gtm-interface.js.download, code is 197, comment is 4, blank is 34.
+original-website\Final Project_files\singular-sdk.js.download, code is 2, comment is 9, blank is 0.
+original-website\Final Project_files\Storefront.svg, code is 17, comment is 0, blank is 0.
+original-website\Final Project_files\style, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\styles__ltr.css, code is 1, comment is 1, blank is 0.
+original-website\Final Project_files\tag, it is a binary file.
+original-website\Final Project_files\tag.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\token_create.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\twitter-ads.dynamic.js.gz, code is 2, comment is 1, blank is 0.
+original-website\Final Project_files\util.js.download, code is 221, comment is 6, blank is 0.
+original-website\Final Project_files\uwt.js.download, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\vcd15cbe7772f49c399c6a5babf22c1241717689176015, code is 1, comment is 0, blank is 0.
+original-website\Final Project_files\webpack-87b895a147e5cc21.js.download, code is 2, comment is 2, blank is 1.
+original-website\Final Project_files\ytag.js.download, code is 1, comment is 1, blank is 0.
+styles-footer-pop.css, code is 112, comment is 4, blank is 35.
+styles.css, code is 285, comment is 28, blank is 150.
+styles2.css, code is 58, comment is 1, blank is 22.
+styles3.css, code is 135, comment is 24, blank is 45.
+styles4.css, code is 101, comment is 68, blank is 38.
+styles6.css, code is 118, comment is 21, blank is 38.
+styles7.css, code is 145, comment is 1, blank is 28.
+styles8.css, code is 254, comment is 39, blank is 100.
+t7.css, code is 72, comment is 2, blank is 13.
+tablet-2.css, code is 195, comment is 10, blank is 69.
+tablet-3.css, code is 145, comment is 60, blank is 46.
+tablet-6.css, code is 98, comment is 29, blank is 27.
+tablet6.css, code is 134, comment is 146, blank is 33.
+===============================================================================

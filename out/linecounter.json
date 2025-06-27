@@ -1,0 +1,880 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\hp\\OneDrive\\Desktop\\doordash2",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2025-06-26 23:54:21",
+            "filesum": 132,
+            "codesum": 10943,
+            "commentsum": 745,
+            "blanksum": 1245,
+            "statistics": {
+                ".css": {
+                    "code": 2046,
+                    "comment": 453,
+                    "blank": 729
+                },
+                ".html": {
+                    "code": 537,
+                    "comment": 28,
+                    "blank": 86
+                },
+                "": {
+                    "code": 5204,
+                    "comment": 126,
+                    "blank": 303
+                },
+                ".download": {
+                    "code": 2917,
+                    "comment": 135,
+                    "blank": 127
+                },
+                ".gz": {
+                    "code": 7,
+                    "comment": 3,
+                    "blank": 0
+                },
+                ".txt": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".svg": {
+                    "code": 230,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 2,
+                    "filename": "768.css"
+                },
+                {
+                    "filename": "assets\\fonts\\Rubik-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\fonts\\TTNormsPro-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\fonts\\TTNormsPro-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\fonts\\TTNormsProCondensed-Black.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\fonts\\TTNormsProCondensed-Bold.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\fonts\\TTNormsProCondensed-ExtraBlack.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\alcohol_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\alcohol_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\beauty_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\beauty_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\become_a_dasher_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\become_a_dasher_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\bg--plate--.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\bg-plate.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\convenience_desktop.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\convenience_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\dashpass_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\dashpass_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\download_the_app_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\download_the_app_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\flowers_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\flowers_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\hand-background.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "assets\\images\\iphone.svg"
+                },
+                {
+                    "filename": "assets\\images\\pet_supplies_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\pet_supplies_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "assets\\images\\ScootScoot.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "assets\\images\\Storefront.svg"
+                },
+                {
+                    "filename": "assets\\images\\work_with_doordash_desktop.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets\\images\\work_with_doordash_mobile.avif",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 56,
+                    "code": 111,
+                    "comment": 15,
+                    "filename": "desktop.css"
+                },
+                {
+                    "blank": 74,
+                    "code": 321,
+                    "comment": 15,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 27,
+                    "code": 71,
+                    "comment": 1,
+                    "filename": "laptop.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\0"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\0(1)"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\13956-35e1910eb857c0bd.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\21324-deb8a642b9d9f7bc.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\23005079"
+                },
+                {
+                    "blank": 1,
+                    "code": 78,
+                    "comment": 5,
+                    "filename": "original-website\\Final Project_files\\23005079.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\381650d3-a7e6191e3df42132.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "original-website\\Final Project_files\\44417-5adc0411b66c8d4c.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 4,
+                    "filename": "original-website\\Final Project_files\\48740-f23497a6a6a7c76c.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\49fdc854-c6d8c4adb342eae5.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\56046044"
+                },
+                {
+                    "blank": 1,
+                    "code": 78,
+                    "comment": 5,
+                    "filename": "original-website\\Final Project_files\\56046044.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\5a09248fb0d6e07983a8.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "original-website\\Final Project_files\\71367-b771c417260e6deb.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\8244bd5de54317386ec5.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\933658699(1).html"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\933658699.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\96A78AF9D886"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\98834-5152589d7b46a05d.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\A1811041-0142-4339-b878-33d0da0e40831.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\activityi(1).html"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\activityi(2).html"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\activityi(3).html"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\activityi.html"
+                },
+                {
+                    "filename": "original-website\\Final Project_files\\adsct",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "original-website\\Final Project_files\\adsct(1)",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\amplitude-5.2.2-min.gz.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\amplitude.dynamic.js.gz"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\amzn.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 92,
+                    "comment": 7,
+                    "filename": "original-website\\Final Project_files\\analytics.js.download"
+                },
+                {
+                    "blank": 2,
+                    "code": 183,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\anchor.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\api.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\bat.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 3,
+                    "filename": "original-website\\Final Project_files\\bf37602e-12b08f2444aeac8b.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\clarity.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 336,
+                    "comment": 16,
+                    "filename": "original-website\\Final Project_files\\client"
+                },
+                {
+                    "blank": 0,
+                    "code": 205,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\common.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\commons.a61d7bea37d2de5d4b69.js.gz"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\core.js.download"
+                },
+                {
+                    "filename": "original-website\\Final Project_files\\dashpass_mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "original-website\\Final Project_files\\dc_pre=CJirwLC6go4DFfWprAIdjQ0ztw",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "original-website\\Final Project_files\\dc_pre=CMGnwLC6go4DFe-erAId-XM1sA",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 51,
+                    "code": 467,
+                    "comment": 13,
+                    "filename": "original-website\\Final Project_files\\destination"
+                },
+                {
+                    "blank": 51,
+                    "code": 467,
+                    "comment": 13,
+                    "filename": "original-website\\Final Project_files\\destination(1)"
+                },
+                {
+                    "blank": 59,
+                    "code": 598,
+                    "comment": 13,
+                    "filename": "original-website\\Final Project_files\\destination(2)"
+                },
+                {
+                    "filename": "original-website\\Final Project_files\\download_the_app_mobile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\e1d0e6c16c28d734.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\enterprise.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\f(1).txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\f.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\google-tag-manager.dynamic.js.gz"
+                },
+                {
+                    "blank": 79,
+                    "code": 784,
+                    "comment": 10,
+                    "filename": "original-website\\Final Project_files\\gtm.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\iphone.svg"
+                },
+                {
+                    "blank": 64,
+                    "code": 667,
+                    "comment": 14,
+                    "filename": "original-website\\Final Project_files\\js"
+                },
+                {
+                    "blank": 69,
+                    "code": 771,
+                    "comment": 14,
+                    "filename": "original-website\\Final Project_files\\js(1)"
+                },
+                {
+                    "blank": 8,
+                    "code": 1887,
+                    "comment": 43,
+                    "filename": "original-website\\Final Project_files\\js(2)"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\main-app-09b69240046eefab.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\main.47861135.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\ping.min.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\pixel.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\polyfills-42372ed130431b0a.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1165,
+                    "comment": 28,
+                    "filename": "original-website\\Final Project_files\\recaptcha__en.js.download"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 24,
+                    "filename": "original-website\\Final Project_files\\s.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\saved_resource"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\saved_resource(1).html"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\saved_resource(2).html"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\saved_resource(3).html"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\saved_resource(4).html"
+                },
+                {
+                    "blank": 1,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\saved_resource.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\ScootScoot.svg"
+                },
+                {
+                    "blank": 34,
+                    "code": 197,
+                    "comment": 4,
+                    "filename": "original-website\\Final Project_files\\singular-gtm-interface.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 9,
+                    "filename": "original-website\\Final Project_files\\singular-sdk.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\Storefront.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\style"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\styles__ltr.css"
+                },
+                {
+                    "filename": "original-website\\Final Project_files\\tag",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\tag.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\token_create.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\twitter-ads.dynamic.js.gz"
+                },
+                {
+                    "blank": 0,
+                    "code": 221,
+                    "comment": 6,
+                    "filename": "original-website\\Final Project_files\\util.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\uwt.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "original-website\\Final Project_files\\vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 2,
+                    "filename": "original-website\\Final Project_files\\webpack-87b895a147e5cc21.js.download"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "original-website\\Final Project_files\\ytag.js.download"
+                },
+                {
+                    "blank": 35,
+                    "code": 112,
+                    "comment": 4,
+                    "filename": "styles-footer-pop.css"
+                },
+                {
+                    "blank": 150,
+                    "code": 285,
+                    "comment": 28,
+                    "filename": "styles.css"
+                },
+                {
+                    "blank": 22,
+                    "code": 58,
+                    "comment": 1,
+                    "filename": "styles2.css"
+                },
+                {
+                    "blank": 45,
+                    "code": 135,
+                    "comment": 24,
+                    "filename": "styles3.css"
+                },
+                {
+                    "blank": 38,
+                    "code": 101,
+                    "comment": 68,
+                    "filename": "styles4.css"
+                },
+                {
+                    "blank": 38,
+                    "code": 118,
+                    "comment": 21,
+                    "filename": "styles6.css"
+                },
+                {
+                    "blank": 28,
+                    "code": 145,
+                    "comment": 1,
+                    "filename": "styles7.css"
+                },
+                {
+                    "blank": 100,
+                    "code": 254,
+                    "comment": 39,
+                    "filename": "styles8.css"
+                },
+                {
+                    "blank": 13,
+                    "code": 72,
+                    "comment": 2,
+                    "filename": "t7.css"
+                },
+                {
+                    "blank": 69,
+                    "code": 195,
+                    "comment": 10,
+                    "filename": "tablet-2.css"
+                },
+                {
+                    "blank": 46,
+                    "code": 145,
+                    "comment": 60,
+                    "filename": "tablet-3.css"
+                },
+                {
+                    "blank": 27,
+                    "code": 98,
+                    "comment": 29,
+                    "filename": "tablet-6.css"
+                },
+                {
+                    "blank": 33,
+                    "code": 134,
+                    "comment": 146,
+                    "filename": "tablet6.css"
+                }
+            ]
+        }
+    ]
+}
