@@ -222,19 +222,20 @@ footer .bottom-line {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 16px;
+  column-gap: 0px;
 
   font-size: 18px;
   line-height: 1;
 
 
-  height: 18px;
+  min-height: 18px;
   margin-top: 12px;
 
 }
 
 footer .bottom-line h6 {
   margin: 0;
+  margin-left: 16px;
   padding: 0;
   font-weight: 500;
   font-size: 12px;
@@ -244,7 +245,7 @@ footer .bottom-line h6 {
 
 footer .bottom-line svg {
   flex-shrink: 0;
-  margin-right: 8px;
+  margin-right: 0px;
 }
 
 footer .remaining {
@@ -319,6 +320,11 @@ footer .remaining {
   footer .last-svg .logo-svg svg {
     width: 24px;
     height: 24px;
+  }
+
+
+  footer .svgs {
+    margin: 40px auto 0px;
   }
 
   footer .bottom-line {

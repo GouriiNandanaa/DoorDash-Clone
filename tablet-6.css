@@ -135,9 +135,18 @@
 
 .sixth-section .scroll-view .supply .contents button {
     font-size: 16px !important;
-    letter-spacing: -0.01px !important;
+    line-height: 22px;
+    letter-spacing: 0.1px !important;
     margin-top: 30px;
+    padding: 9px 12px;
 
+}
+
+body > section.sixth-section > div.scroll-view > div:nth-child(3) > div.contents > p.warning{
+    font-size: 14px !important;
+    line-height: 22px;
+    letter-spacing: 0.1px !important;
+    margin-top: 20px;
 }
 
 .sixth-section .left{
